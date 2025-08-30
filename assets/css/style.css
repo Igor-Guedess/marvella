@@ -86,7 +86,7 @@ h6 {
 }
 
 /* Background Color */
-.size-list input[type=radio]:checked + label, .pesco-tabs.style-three .nav-link.active, .category-item.style-two:hover, .main-categories-wrap .more_categories span.icon:after, .main-categories-wrap .more_categories span.icon:before, .theme-btn.style-one:hover, .back-to-top {
+.size-list input[type=radio]:checked + label, .pesco-tabs.style-three .nav-link.active, .category-item.style-two:hover, .main-categories-wrap .more_categories span.icon:after, .main-categories-wrap .more_categories span.icon:before, .theme-btn.style-one:hover, .back-to-top, .primary-color-bg {
   background-color: var(--primary-color);
 }
 
@@ -178,7 +178,7 @@ h6 {
 :root {
   --primary-color: #3F6244;
   --secondary-color: #F7941F;
-  --secondary-light-color: #E2D091;
+  --secondary-light-color: #FFE58C;
   --primary-dark-color: #13172B;
   --white-color: #ffffff;
   --text-color: #5E626F;
@@ -4426,7 +4426,6 @@ button {
 .newsletter-wrapper .newsletter-content-box h3 {
   text-transform: capitalize;
   max-width: 595px;
-  margin-bottom: 65px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1450px) {
   .newsletter-wrapper .newsletter-content-box h3 {
@@ -4616,6 +4615,7 @@ button {
   }
 }
 .offer-deal-wrapper .deal-img {
+  width: 45%;
   position: absolute;
   bottom: 0;
   right: 15px;
@@ -4821,7 +4821,7 @@ button {
   font-size: 25px;
   margin-left: 55px;
   margin-right: 55px;
-  color: var(--primary-color);
+  color: var(--secondary-light-color);
 }
 .headline-wrap.style-one .marquee-inner {
   display: flex;
@@ -5207,7 +5207,7 @@ button {
 
 /* Week Deal Wrapper*/
 .week-deal-wrapper {
-  background-color: #FFF1EA;
+  background-color: #f2f2f2;
   position: relative;
   z-index: 1;
 }
@@ -5250,6 +5250,23 @@ button {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.bgc {
+  background-color: #F2F2F2;
+  padding-bottom: 100px;
+}
+
+.dsplnn {
+  display: none !important;
+}
+
+.cntnt {
+  height: 100%;
+}
+
+#sales {
+  scroll-margin-top: 76px;
 }
 
 /*---========================

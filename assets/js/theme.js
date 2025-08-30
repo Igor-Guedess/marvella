@@ -121,6 +121,7 @@
             $(".header-navigation").addClass("sticky");
         }
     });
+    
 
     //===== Back to top
 
@@ -644,25 +645,25 @@
 
     if ($('.simply-countdown').length){
         simplyCountdown('.simply-countdown', {
-            year: 2024,
+            year: 2025,
             month: 12,
             day: 31,
             words: { //words displayed into the countdown
-                days: { singular: 'day', plural: 'Days' },
-                hours: { singular: 'hour', plural: 'Hours' },
-                minutes: { singular: 'minute', plural: 'Min' },
-                seconds: { singular: 'second', plural: 'Sec' }
+                days: { singular: 'dia', plural: 'dias' },
+                hours: { singular: 'hora', plural: 'horas' },
+                minutes: { singular: 'minuto', plural: 'minutos' },
+                seconds: { singular: 'segundo', plural: 'segundos' }
             },
         });
         simplyCountdown('.simply-countdown-two', {
-            year: 2024,
+            year: 2025,
             month: 12,
             day: 31,
             words: { //words displayed into the countdown
-                days: { singular: 'day', plural: 'Days' },
-                hours: { singular: 'hour', plural: 'Hours' },
-                minutes: { singular: 'minute', plural: 'Min' },
-                seconds: { singular: 'second', plural: 'Sec' }
+                days: { singular: 'dia', plural: 'dias' },
+                hours: { singular: 'hora', plural: 'horas' },
+                minutes: { singular: 'minuto', plural: 'minutos' },
+                seconds: { singular: 'segundo', plural: 'segundos' }
             },
         });
     }
