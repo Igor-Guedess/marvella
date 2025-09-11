@@ -2213,7 +2213,7 @@ button {
 }
 .product-item.style-one .product-thumbnail .cart-button {
   position: absolute;
-  bottom: -50%;
+  bottom: -60%;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transition: all 0.4s ease-out 0s;
@@ -5252,23 +5252,6 @@ button {
   left: 0;
 }
 
-.bgc {
-  background-color: #F2F2F2;
-  padding-bottom: 100px;
-}
-
-.dsplnn {
-  display: none !important;
-}
-
-.cntnt {
-  height: 100%;
-}
-
-#sales {
-  scroll-margin-top: 76px;
-}
-
 /*---========================
         04. Sections
             # Footer CSS
@@ -5543,3 +5526,62 @@ button {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.bgc {
+  background-color: #F2F2F2;
+  padding-bottom: 100px;
+}
+
+.dsplnn {
+  display: none !important;
+}
+
+.cntnt {
+  height: 100%;
+}
+
+#sales {
+  scroll-margin-top: 76px;
+}
+
+/* Fora de estoque */
+.product-item.out-of-stock .product-thumbnail img {
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.cart-button .cart-btn.disabled {
+    cursor: not-allowed;
+    background-color: #a0a0a0;
+}
+
+.cart-button .cart-btn.disabled:hover {
+    background-color: #a0a0a0;
+}
+
+/* Correção para o tamanho das imagens no carrinho */
+.pesco-mini-cart-list .sidebar-cart-item a img {
+    width: 80px; /* Define uma largura fixa para a imagem */
+    height: 80px; /* Define uma altura fixa para a imagem */
+    object-fit: cover; /* Garante que a imagem preencha a área sem distorcer */
+}
+
+/* Correção para o alinhamento dos botões de quantidade no carrinho */
+.sidebar-cart-item .quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sidebar-cart-item .quantity-control .quantity-display {
+    display: inline-block;
+    width: 30px; /* Largura fixa para o número */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Centraliza o texto de carrinho vazio */
+.sidemenu-wrapper-cart .sidebar-cart-item.text-center {
+    text-align: center;
+    padding: 20px; /* Opcional: Adiciona um espaçamento para o texto não ficar colado nas bordas */
+}
