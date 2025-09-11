@@ -5585,3 +5585,21 @@ button {
     text-align: center;
     padding: 20px; /* Opcional: Adiciona um espaçamento para o texto não ficar colado nas bordas */
 }
+
+.pesco-tabs.style-one .nav-tabs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilo para a etiqueta de produto esgotado */
+.product-info .sale.out-of-stock {
+  color: #dc3545 !important;
+}
+
+/* Estilo para o botão desativado */
+.product-cart-variation .theme-btn.disabled {
+  background-color: #6c757d; /* Um tom de cinzento */
+  cursor: not-allowed; /* Mostra um ícone de "não permitido" ao passar o rato */
+  opacity: 0.65;
+}

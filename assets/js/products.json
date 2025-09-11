@@ -2,781 +2,2661 @@
   {
     "id": 1,
     "name": "Argila Branca",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "bestSeller": true,
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "argila",
     "price": 40.00,
-    "discount": true,
-    "discountPercent": 10,
-    "inStock": true
+    "discount": false,
+    "discountPercent": null,
+    "inStock": true,
+    "shortDescription": "Conhecida por ser a mais suave de todas as argilas, a Argila Branca é a escolha perfeita para peles sensíveis, secas ou com sinais de envelhecimento. Rica em minerais, ela promove uma limpeza profunda sem agredir, ajudando a clarear manchas, absorver a oleosidade de forma equilibrada e a potencializar a regeneração celular para uma pele visivelmente mais macia e iluminada.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila 100% natural",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>A Argila Branca é indicada para peles sensíveis e desidratadas. Contém o maior teor de alumínio e seu pH é muito próximo ao da pele.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Clareia a pele</li>",
+      "  <li>Absorve a oleosidade sem desidratar</li>",
+      "  <li>Ação suavizante e cicatrizante</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 2,
     "name": "Argila Vermelha",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "bestSeller": true,
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "argila",
     "price": 40.00,
     "discount": true,
     "discountPercent": 10,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "A Argila Vermelha é ideal para peles sensíveis e maduras. Rica em óxido de ferro, ela ajuda a estimular a circulação sanguínea, promovendo um efeito tensor e revitalizante.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila 100% natural",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>A Argila Vermelha é uma argila de alta absorção, que remove o excesso de oleosidade e impurezas, deixando a pele com um toque aveludado.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Efeito tensor e anti-idade</li>",
+      "  <li>Melhora a circulação e elasticidade da pele</li>",
+      "  <li>Ação calmante para peles irritadas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 3,
     "name": "Argila Rosa",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "bestSeller": true,
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "argila",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": false
+    "discount": true,
+    "discountPercent": 10,
+    "inStock": true,
+    "shortDescription": "A suave Argila Rosa é a mistura da argila branca com a vermelha, perfeita para peles delicadas e sensíveis. Promove uma limpeza suave enquanto acalma e hidrata a pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila 100% natural",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Ideal para quem busca um tratamento suave, a Argila Rosa devolve a luminosidade e a maciez da pele sem agredir.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação calmante e anti-inflamatória</li>",
+      "  <li>Hidratação e suavidade</li>",
+      "  <li>Ideal para peles delicadas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 4,
     "name": "Argila Roxa",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "bestSeller": true,
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "argila",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": false
+    "discount": true,
+    "discountPercent": 10,
+    "inStock": true,
+    "shortDescription": "Rica em magnésio, a Argila Roxa é conhecida por seu efeito rejuvenescedor. Auxilia na formação de colágeno, melhorando a firmeza e a elasticidade da pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila 100% natural",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um tratamento de luxo para peles maduras, a Argila Roxa fornece os minerais essenciais para uma aparência mais jovem e saudável.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Estimula a produção de colágeno</li>",
+      "  <li>Efeito rejuvenescedor e firmador</li>",
+      "  <li>Nutre profundamente a pele</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 5,
     "name": "Argila Amarela",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "bestSeller": true,
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "argila",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true
+    "discount": true,
+    "discountPercent": 10,
+    "inStock": true,
+    "shortDescription": "A Argila Amarela, rica em silício, é um excelente rejuvenescedor. Ideal para peles secas e maduras, promove a elasticidade e combate os sinais de envelhecimento.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila 100% natural",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Com seu poder tonificante, a Argila Amarela nutre e revitaliza, deixando a pele com um aspecto mais saudável e jovem.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação rejuvenescedora</li>",
+      "  <li>Melhora a elasticidade da pele</li>",
+      "  <li>Efeito purificante e adstringente</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 6,
     "name": "Argila Cinza",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "bestSeller": true,
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "argila",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true
+    "discount": true,
+    "discountPercent": 10,
+    "inStock": true,
+    "shortDescription": "Ideal para peles oleosas e com acne, a Argila Cinza possui propriedades anti-inflamatórias e cicatrizantes, ajudando a controlar a oleosidade e a secar espinhas.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila 100% natural",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>A Argila Cinza é um poderoso aliado no combate à acne, graças ao seu alto teor de titânio e propriedades antioxidantes.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Controla a oleosidade excessiva</li>",
+      "  <li>Ação secativa e cicatrizante</li>",
+      "  <li>Combate cravos e espinhas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 7,
     "name": "Argila Verde",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "bestSeller": true,
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "argila",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "A mais conhecida das argilas, a Argila Verde é perfeita para peles oleosas e acneicas. Possui ação adstringente, secativa e bactericida, limpando profundamente os poros.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila 100% natural",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>A Argila Verde promove um peeling natural suave, removendo células mortas e auxiliando na redução de manchas e inflamações.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Limpeza profunda e detoxificante</li>",
+      "  <li>Ação adstringente e secativa</li>",
+      "  <li>Reduz a oleosidade e a acne</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 8,
     "name": "Argila Rosa + Óleo de Rosa Mosqueta + Vitamina E",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "bestSeller": true,
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "dermocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Uma combinação poderosa para regeneração da pele. Ideal para atenuar cicatrizes, linhas de expressão e promover uma hidratação intensa.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila, Óleo Vegetal, Vitamina E",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este composto une a suavidade da Argila Rosa com o poder regenerador do Óleo de Rosa Mosqueta e a ação antioxidante da Vitamina E.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Atenua cicatrizes e manchas</li>",
+      "  <li>Combate o envelhecimento precoce</li>",
+      "  <li>Hidratação e nutrição profundas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 9,
     "name": "Argila Branca + Colágeno + Vitaminas E",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "dermocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Tratamento firmador e rejuvenescedor. A Argila Branca limpa suavemente enquanto o Colágeno e a Vitamina E trabalham para melhorar a firmeza e elasticidade da pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila, Colágeno, Vitamina E",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Ideal para peles que necessitam de um 'up' na firmeza, este composto ajuda a combater a flacidez e a manter a pele jovem.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Melhora a firmeza e a elasticidade</li>",
+      "  <li>Ação antioxidante e rejuvenescedora</li>",
+      "  <li>Promove uma pele mais lisa e uniforme</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 10,
     "name": "Argila Amarela + Colágeno + Vitaminas A e E",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "dermocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Uma fórmula rica para nutrição e revitalização da pele. A Argila Amarela tonifica enquanto o Colágeno e as Vitaminas A e E combatem os radicais livres e o envelhecimento.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila, Colágeno, Vitaminas A e E",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Perfeito para peles secas e maduras, este blend nutre profundamente, restaurando a vitalidade e o brilho natural da pele.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Nutrição intensa e revitalização</li>",
+      "  <li>Ação antioxidante potente</li>",
+      "  <li>Combate o ressecamento e a flacidez</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 11,
     "name": "Argila Roxa + Colágeno + Vitamina E",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "dermocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Tratamento de efeito lifting natural. A Argila Roxa, rica em magnésio, une-se ao Colágeno para tonificar a pele, suavizar rugas e linhas de expressão.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila, Colágeno, Vitamina E",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este composto promove a síntese de colágeno, resultando em uma pele mais firme, elástica e com aparência rejuvenescida.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Efeito lifting e tensor</li>",
+      "  <li>Melhora a elasticidade e firmeza</li>",
+      "  <li>Suaviza rugas e linhas finas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 12,
     "name": "Argila Branca + Dolomita + Óleo de Semente de Uva",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "dermocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fórmula calmante e clareadora. A Dolomita potencializa a ação da Argila Branca, enquanto o Óleo de Semente de Uva hidrata e previne o envelhecimento precoce.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila, Dolomita, Óleo Vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este blend é ideal para suavizar manchas, acalmar a pele e proporcionar uma hidratação leve e eficaz, sem deixar resíduos oleosos.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação clareadora de manchas</li>",
+      "  <li>Efeito calmante e relaxante para a pele</li>",
+      "  <li>Hidratação e ação antioxidante</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 13,
     "name": "Açafrão em pó + Argila Branca + Óleo de Amêndoas Doces",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "dermocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Máscara revitalizante e anti-inflamatória. O Açafrão é conhecido por suas propriedades terapêuticas, ajudando a uniformizar o tom da pele e a combater inflamações.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Açafrão, Argila, Óleo Vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Uma combinação exótica que une o poder do Açafrão com a suavidade da Argila Branca e a hidratação do Óleo de Amêndoas, para uma pele radiante.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Uniformiza o tom da pele</li>",
+      "  <li>Ação anti-inflamatória e antioxidante</li>",
+      "  <li>Promove brilho e vitalidade</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 14,
     "name": "Argila Preta + Carvão Ativo + Óleo de Jojoba",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "dermocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Máscara detox de alta performance. A Argila Preta e o Carvão Ativo removem impurezas profundas e toxinas, enquanto o Óleo de Jojoba hidrata e controla a oleosidade.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Argila, Carvão Ativo, Óleo Vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>A escolha ideal para uma limpeza profunda e efeito purificante, ajudando a minimizar poros e a deixar a pele com um aspecto renovado.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Efeito detox e antipoluição</li>",
+      "  <li>Reduz a oleosidade e o tamanho dos poros</li>",
+      "  <li>Ação rejuvenescedora e iluminadora</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 15,
     "name": "Arroz com Argila Branca e Vitamina E (anti-idade e clareador)",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "dermocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Segredo oriental para uma pele de porcelana. O pó de arroz é famoso por sua ação clareadora e matificante, suavizando manchas e controlando a oleosidade.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Pó de Arroz, Argila, Vitamina E",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este composto une a tradição do pó de arroz com a tecnologia da Vitamina E e a suavidade da Argila Branca para um tratamento completo.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Efeito clareador e uniformizador</li>",
+      "  <li>Ação anti-idade e antioxidante</li>",
+      "  <li>Deixa a pele com toque aveludado</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 16,
     "name": "Ameixa Negra + Extrato de Ameixa Negra",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Uma fragrância intensa e sofisticada que perfuma e hidrata a pele. O extrato de Ameixa Negra deixa um aroma marcante e duradouro.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Ideal para um banho relaxante e perfumado, este sabonete limpa suavemente enquanto deixa a pele macia e com uma fragrância inesquecível.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância marcante e sensual</li>",
+      "  <li>Pele macia e hidratada</li>",
+      "  <li>Limpeza suave e eficaz</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 17,
     "name": "Chá branco + Extrato de Chá Branco",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Uma fragrância leve e revigorante que acalma e renova as energias. O extrato de Chá Branco possui propriedades antioxidantes e calmantes.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Perfeito para um banho tranquilo, este sabonete limpa a pele delicadamente, deixando uma sensação de frescor e bem-estar.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância suave e refrescante</li>",
+      "  <li>Ação antioxidante e calmante</li>",
+      "  <li>Pele limpa e revitalizada</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 18,
     "name": "Erva Doce + Extrato de Erva-Doce",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "A fragrância clássica e reconfortante da Erva Doce. Com propriedades calmantes e antissépticas, limpa e protege a pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete proporciona um banho relaxante, deixando a pele com uma sensação de limpeza e um aroma suave e agradável.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância clássica e reconfortante</li>",
+      "  <li>Propriedades calmantes e antissépticas</li>",
+      "  <li>Limpeza suave para toda a família</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 19,
     "name": "Morango + Extrato de Morango",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Uma fragrância doce e vibrante que alegra o dia. O extrato de Morango é rico em vitamina C, com ação antioxidante e hidratante.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um banho divertido e perfumado que limpa a pele, deixando-a macia, hidratada e com um delicioso aroma de morango.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância doce e frutal</li>",
+      "  <li>Ação antioxidante e hidratante</li>",
+      "  <li>Pele macia e perfumada</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 20,
     "name": "Perfume de Bebê + Extrato de Aveia",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aconchego e cuidado para a sua pele. A fragrância suave de bebê combinada com o extrato de Aveia, que hidrata e acalma a pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Ideal para peles sensíveis, este sabonete limpa com delicadeza, deixando a pele protegida, hidratada e com um cheirinho de conforto.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância suave e delicada</li>",
+      "  <li>Ação hidratante e calmante da aveia</li>",
+      "  <li>Perfeito para peles sensíveis</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 21,
     "name": "Lavanda + Extrato de Lavanda",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "A fragrância relaxante da Lavanda para um banho tranquilo. O extrato de Lavanda acalma a pele e a mente, aliviando o estresse do dia a dia.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Transforme seu banho em um momento de spa com este sabonete de Lavanda, que limpa suavemente e promove uma sensação de bem-estar.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância floral e relaxante</li>",
+      "  <li>Propriedades calmantes e antiestresse</li>",
+      "  <li>Limpeza suave e pele macia</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 22,
     "name": "Cereja e Avelã + Extrato de Cereja + Óleo de Avelã",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Uma combinação cremosa e envolvente. A fragrância adocicada da Cereja com o toque nutritivo do Óleo de Avelã para uma pele macia e perfumada.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos e Óleos",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete proporciona uma espuma cremosa que limpa e hidrata, deixando a pele com um aroma irresistível e um toque aveludado.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância adocicada e marcante</li>",
+      "  <li>Ação nutritiva e hidratante</li>",
+      "  <li>Pele macia e aveludada</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 23,
     "name": "Rosa Mosqueta + Óleo de Rosa Mosqueta + Extrato de Rosa",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado regenerador para a sua pele. O Óleo de Rosa Mosqueta é famoso por sua capacidade de atenuar cicatrizes, estrias e sinais de envelhecimento.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos e Óleos",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete de tratamento que limpa suavemente enquanto ajuda a regenerar a pele, deixando-a mais uniforme e rejuvenescida.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação regeneradora e cicatrizante</li>",
+      "  <li>Atenua manchas e linhas de expressão</li>",
+      "  <li>Fragrância floral delicada</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 24,
     "name": "Maracujá + Extrato de Maracujá",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Uma explosão de frescor tropical. A fragrância do Maracujá é calmante e refrescante, ideal para um banho revigorante.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete limpa e perfuma a pele, proporcionando uma sensação de leveza e bem-estar, como uma brisa de verão.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância frutal e refrescante</li>",
+      "  <li>Propriedades calmantes</li>",
+      "  <li>Pele limpa e perfumada</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 25,
     "name": "Limão + Extrato + Óleo Essencial de Limão",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Energia e vitalidade para o seu banho. O aroma cítrico do limão é estimulante e ajuda a clarear a pele, enquanto o óleo essencial tonifica.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos e Óleos Essenciais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete revigorante que limpa profundamente, auxiliando no controle da oleosidade e deixando uma sensação de frescor duradouro.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância cítrica e energizante</li>",
+      "  <li>Ação adstringente e tonificante</li>",
+      "  <li>Auxilia no clareamento de manchas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 26,
     "name": "Romã + Extrato de Romã",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fragrância exótica e antioxidante. O extrato de Romã é rico em antioxidantes que combatem o envelhecimento precoce da pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete limpa e protege a pele dos danos diários, deixando-a macia, perfumada e com um toque de sofisticação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância frutal e exótica</li>",
+      "  <li>Poderosa ação antioxidante</li>",
+      "  <li>Pele protegida e rejuvenescida</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 27,
     "name": "Melancia + Extrato de Melancia",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação e frescor para o seu verão. O extrato de Melancia é rico em vitaminas e minerais, promovendo uma hidratação refrescante.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete com o cheirinho do verão, que limpa suavemente e ajuda a manter a pele hidratada e revitalizada nos dias quentes.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância doce e refrescante</li>",
+      "  <li>Ação hidratante e remineralizante</li>",
+      "  <li>Pele macia e com toque fresco</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 28,
     "name": "Pitaya + Extrato de Pitaya",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fragrância vibrante e exótica. O extrato de Pitaya é rico em antioxidantes, ajudando a proteger a pele contra os radicais livres.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um banho energizante com uma fragrância única. Limpa, protege e deixa a pele com um perfume marcante e sofisticado.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância exótica e marcante</li>",
+      "  <li>Alta concentração de antioxidantes</li>",
+      "  <li>Pele protegida e perfumada</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 29,
     "name": "Uva + Extrato de Uva",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Um banho rejuvenescedor com o poder da uva. O extrato de Uva é rico em polifenóis, que combatem o envelhecimento da pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete limpa e cuida da sua pele, ajudando a manter sua elasticidade e juventude, com uma fragrância doce e frutal.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância doce e envolvente</li>",
+      "  <li>Ação antioxidante e anti-idade</li>",
+      "  <li>Pele macia e rejuvenescida</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 30,
     "name": "Maçã Verde + Extrato de Maçã Verde",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "puraessencia",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Frescor e vitalidade para o seu banho. O extrato de Maçã Verde tem ação adstringente, ajudando a controlar a oleosidade e a tonificar a pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete refrescante que limpa a pele, deixando uma sensação de pureza e um aroma cítrico e revigorante.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fragrância cítrica e refrescante</li>",
+      "  <li>Ação adstringente e tonificante</li>",
+      "  <li>Ideal para peles mistas a oleosas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 31,
     "name": "Rosa Mosqueta + Hibisco & Argila Rosa",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado natural para uma pele radiante. A combinação de Rosa Mosqueta, Hibisco e Argila Rosa promove regeneração, hidratação e um brilho saudável.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Ingredientes Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete é um tratamento completo que limpa, nutre e revitaliza a pele, ideal para quem busca uma beleza natural e eficaz.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação regeneradora e antioxidante</li>",
+      "  <li>Hidratação e luminosidade</li>",
+      "  <li>Limpeza suave com argila</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 32,
     "name": "Barbatimão + Copaíba & Argila Verde",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Poder adstringente e anti-inflamatório da natureza. Ideal para a higiene íntima e para peles com excesso de oleosidade ou acne.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Ingredientes Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>O Barbatimão e a Copaíba são conhecidos por suas propriedades cicatrizantes e bactericidas, enquanto a Argila Verde purifica a pele.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação adstringente e cicatrizante</li>",
+      "  <li>Combate a oleosidade e a acne</li>",
+      "  <li>Propriedades antissépticas e anti-inflamatórias</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 33,
     "name": "7 Ervas",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Um banho de limpeza energética e proteção. A combinação de 7 ervas sagradas para purificar o corpo e a alma, afastando energias negativas.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Ervas Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete artesanal combina o poder de ervas como arruda, guiné e alecrim para um banho revigorante e protetor.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Limpeza energética e purificação</li>",
+      "  <li>Sensação de leveza e bem-estar</li>",
+      "  <li>Aroma herbal e revigorante</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 34,
     "name": "Aroeira",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado e proteção para a pele. A Aroeira é conhecida por suas propriedades anti-inflamatórias, cicatrizantes e antissépticas.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extrato de Aroeira",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Ideal para peles sensíveis ou com pequenas irritações, este sabonete limpa suavemente enquanto ajuda a acalmar e proteger a pele.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação anti-inflamatória e cicatrizante</li>",
+      "  <li>Propriedades antissépticas</li>",
+      "  <li>Ideal para peles sensíveis e irritadas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 35,
     "name": "Copaíba",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "O bálsamo da Amazônia para a sua pele. O óleo de Copaíba é um poderoso anti-inflamatório natural, ideal para acalmar irritações e combater a acne.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Óleo de Copaíba",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete limpa e trata a pele, auxiliando na regeneração e no alívio de inflamações, deixando uma sensação de conforto.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Potente ação anti-inflamatória</li>",
+      "  <li>Auxilia no tratamento da acne e dermatites</li>",
+      "  <li>Efeito regenerador e calmante</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 36,
     "name": "Enxofre + Carvão Ativo",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Ação profunda contra a oleosidade e a acne. O Enxofre regula a produção de sebo, enquanto o Carvão Ativo remove as impurezas dos poros.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Enxofre, Carvão Ativo",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete é um tratamento eficaz para peles muito oleosas, ajudando a secar espinhas, controlar o brilho e purificar a pele.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Controla a oleosidade excessiva</li>",
+      "  <li>Ação secativa e antisséptica</li>",
+      "  <li>Limpeza profunda dos poros</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 37,
     "name": "Mel",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação e maciez para a sua pele. O Mel é um umectante natural, que atrai e retém a umidade, deixando a pele hidratada e com um toque aveludado.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Mel Puro",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete nutritivo que limpa com suavidade, ideal para peles secas e desvitalizadas, restaurando sua hidratação natural.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Alto poder de hidratação</li>",
+      "  <li>Ação antioxidante e nutritiva</li>",
+      "  <li>Pele macia e com brilho saudável</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 38,
     "name": "Maracujá",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Um banho calmante e refrescante. O Maracujá é conhecido por suas propriedades relaxantes, ideal para aliviar a tensão e o estresse.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extrato de Maracujá",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete com extrato natural de Maracujá limpa e perfuma a pele, proporcionando uma agradável sensação de tranquilidade e bem-estar.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Propriedades calmantes e relaxantes</li>",
+      "  <li>Fragrância frutal e refrescante</li>",
+      "  <li>Pele limpa, macia e perfumada</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 39,
     "name": "Melancia",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação e frescor para a pele. A Melancia é rica em água e vitaminas, proporcionando uma hidratação leve e revitalizante.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extrato de Melancia",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete com o aroma do verão que limpa suavemente e ajuda a manter a pele hidratada, macia e com um toque fresco e divertido.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação hidratante e refrescante</li>",
+      "  <li>Fragrância doce e aquosa</li>",
+      "  <li>Pele revitalizada e macia</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 40,
     "name": "Limão",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Ação adstringente e energizante. O Limão é ideal para peles oleosas, ajudando a controlar o brilho e a limpar os poros, com um aroma cítrico revigorante.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extrato de Limão",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete proporciona uma limpeza profunda e uma sensação de frescor, tonificando a pele e deixando-a livre do excesso de oleosidade.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação adstringente e purificante</li>",
+      "  <li>Fragrância cítrica e estimulante</li>",
+      "  <li>Ajuda a controlar a oleosidade</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 41,
     "name": "Erva Doce",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado suave e calmante para a pele. A Erva Doce possui propriedades antissépticas e calmantes, ideal para a higiene diária de toda a família.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extrato de Erva Doce",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Com uma fragrância clássica e reconfortante, este sabonete limpa a pele delicadamente, deixando uma sensação de frescor e bem-estar.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Propriedades calmantes e antissépticas</li>",
+      "  <li>Fragrância suave e agradável</li>",
+      "  <li>Limpeza delicada para o uso diário</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 42,
     "name": "Coco",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação intensa e aroma tropical. O Coco é rico em ácidos graxos que nutrem e hidratam profundamente a pele, prevenindo o ressecamento.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Óleo de Coco",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete cremoso limpa e hidrata, deixando a pele macia, com um toque aveludado e um delicioso perfume de coco.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Alto poder de hidratação e nutrição</li>",
+      "  <li>Previne o ressecamento da pele</li>",
+      "  <li>Fragrância tropical e envolvente</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 43,
     "name": "Camomila + Calêndula",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "natureza",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado calmante e regenerador para peles sensíveis. A Camomila e a Calêndula são conhecidas por suas propriedades anti-inflamatórias e cicatrizantes.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete extremamente suave, ideal para a higiene de peles delicadas, irritadas ou para o banho de bebês, acalmando e protegendo a pele.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação calmante e anti-inflamatória</li>",
+      "  <li>Propriedades cicatrizantes e regeneradoras</li>",
+      "  <li>Ideal para peles sensíveis e de bebês</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 44,
     "name": "Óleo de Rosa Mosqueta",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Poderoso regenerador celular. O Óleo de Rosa Mosqueta é rico em ácidos graxos essenciais, ideal para atenuar cicatrizes, estrias, rugas e linhas de expressão.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleo 100% puro e vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um óleo de tratamento concentrado que promove a regeneração da pele, melhora a elasticidade e ajuda a clarear manchas.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Atenua cicatrizes, estrias e rugas</li>",
+      "  <li>Promove a regeneração celular</li>",
+      "  <li>Uniformiza o tom da pele</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 45,
     "name": "Óleo de Semente de Uva",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação leve e antioxidante. O Óleo de Semente de Uva é fino e de rápida absorção, ideal para todos os tipos de pele, combatendo os radicais livres.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleo 100% puro e vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um óleo versátil para o rosto e corpo, que hidrata sem pesar e ajuda a prevenir o envelhecimento precoce graças à sua ação antioxidante.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Hidratação leve e de rápida absorção</li>",
+      "  <li>Ação antioxidante e anti-idade</li>",
+      "  <li>Ideal para massagens corporais</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 46,
     "name": "Óleo de Jojoba",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "O regulador de oleosidade natural. O Óleo de Jojoba tem uma composição similar à do sebo da pele, ajudando a equilibrar a produção de oleosidade.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleo 100% puro e vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Ideal para peles oleosas e acneicas, este óleo hidrata na medida certa, desobstrui os poros e possui ação anti-inflamatória.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Equilibra a oleosidade da pele</li>",
+      "  <li>Ação anti-inflamatória e cicatrizante</li>",
+      "  <li>Hidratação sem deixar a pele oleosa</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 47,
     "name": "Óleo de Amêndoas Doces",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação profunda e prevenção de estrias. O Óleo de Amêndoas Doces é um emoliente clássico, ideal para peles secas e para gestantes.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleo 100% puro e vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Rico em vitaminas e nutrientes, este óleo melhora a elasticidade da pele, hidrata profundamente e ajuda a prevenir o aparecimento de estrias.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Hidratação intensa para peles secas</li>",
+      "  <li>Previne estrias e melhora a elasticidade</li>",
+      "  <li>Ação calmante e suavizante</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 48,
     "name": "Óleo de Coco Fracionado",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação versátil para pele e cabelo. O Óleo de Coco Fracionado é leve, sem cheiro e de rápida absorção, ideal como carreador para óleos essenciais.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleo 100% puro e vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este óleo nutre profundamente a pele e os cabelos sem deixar resíduos gordurosos, sendo uma excelente base para suas misturas de aromaterapia.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Hidratação leve para pele e cabelo</li>",
+      "  <li>Rápida absorção e toque seco</li>",
+      "  <li>Excelente óleo carreador</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 49,
     "name": "Óleo de Abacate",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Nutrição intensiva para peles secas e cabelos danificados. Rico em vitaminas A, D e E, o Óleo de Abacate restaura a vitalidade e a maciez.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleo 100% puro e vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um óleo denso e nutritivo, perfeito para tratamentos de umectação capilar e para a hidratação de áreas ressecadas do corpo.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Nutrição profunda para pele e cabelo</li>",
+      "  <li>Restaura a hidratação e a elasticidade</li>",
+      "  <li>Combate o ressecamento e a descamação</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 50,
     "name": "Óleo de Girassol",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação e proteção para a pele. O Óleo de Girassol é rico em Vitamina E, um poderoso antioxidante que ajuda a proteger a pele dos danos externos.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleo 100% puro e vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um óleo leve e de fácil absorção que hidrata, amacia e ajuda a manter a barreira de proteção natural da pele, prevenindo o ressecamento.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação hidratante e antioxidante</li>",
+      "  <li>Protege a barreira natural da pele</li>",
+      "  <li>Toque macio e aveludado</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 51,
     "name": "Óleo de Prímula + Rosa Mosqueta",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado intensivo para peles maduras e com sinais de envelhecimento. Uma combinação poderosa que melhora a firmeza, a elasticidade e a hidratação.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleos 100% puros e vegetais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este blend de óleos nobres atua na regeneração celular, ajudando a suavizar rugas e a restaurar a vitalidade da pele madura.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação rejuvenescedora e firmadora</li>",
+      "  <li>Atenua rugas e linhas de expressão</li>",
+      "  <li>Hidratação profunda e duradoura</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 52,
     "name": "Óleo Semente De Abobora",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "oleos",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Nutrição e fortalecimento para pele e cabelos. Rico em zinco e antioxidantes, o Óleo de Semente de Abóbora ajuda a combater a queda capilar e a acne.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Óleo 100% puro e vegetal",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um óleo multifuncional que nutre o couro cabeludo, fortalece os fios e ajuda a regular a oleosidade da pele, combatendo a inflamação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Fortalece os cabelos e combate a queda</li>",
+      "  <li>Ação anti-inflamatória, combate a acne</li>",
+      "  <li>Rico em antioxidantes e zinco</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 53,
     "name": "Lavanda",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fragrância floral e relaxante. A Lavanda acalma, tranquiliza e promove um ambiente de paz, ideal para relaxar antes de dormir.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Crie uma atmosfera de tranquilidade e bem-estar com nossa vela de Lavanda, perfeita para momentos de meditação e relaxamento.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Promove o relaxamento e alivia o estresse</li>",
+      "  <li>Aroma floral e reconfortante</li>",
+      "  <li>Ideal para quartos e salas de estar</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 54,
     "name": "Alecrim",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma herbal e estimulante. O Alecrim melhora o foco, a concentração e a memória, ideal para ambientes de trabalho e estudo.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Energize seu ambiente e sua mente com a fragrância revigorante do Alecrim, que traz clareza mental e disposição.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Estimula o foco e a concentração</li>",
+      "  <li>Aroma herbal e energizante</li>",
+      "  <li>Perfeito para escritórios e home office</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 55,
     "name": "Capim Limão",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fragrância cítrica e refrescante. O Capim Limão traz uma sensação de leveza, limpeza e bem-estar para o ambiente.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Renove o ar e as energias da sua casa com o aroma revitalizante do Capim Limão, que transmite frescor e tranquilidade.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Sensação de limpeza e frescor</li>",
+      "  <li>Aroma cítrico e revigorante</li>",
+      "  <li>Ideal para cozinhas e banheiros</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 56,
     "name": "Love SPL (Baby)",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma suave e reconfortante de infância. Uma fragrância delicada que remete ao cheirinho de bebê, trazendo aconchego e paz.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Crie um ambiente de carinho e tranquilidade com esta vela de aroma suave, perfeita para quartos de bebê ou para quem ama fragrâncias delicadas.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma suave e aconchegante</li>",
+      "  <li>Sensação de conforto e tranquilidade</li>",
+      "  <li>Ideal para quartos e momentos de relaxamento</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 57,
     "name": "Flor de Lótus",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fragrância floral e sofisticada. A Flor de Lótus simboliza a pureza e a elegância, criando um ambiente de paz e sofisticação.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Eleve a energia do seu espaço com o aroma místico e delicado da Flor de Lótus, que inspira a paz interior e a clareza mental.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma floral, aquático e elegante</li>",
+      "  <li>Promove a paz e a harmonia</li>",
+      "  <li>Ideal para salas de estar e meditação</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 58,
     "name": "Eucalipto",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma fresco e descongestionante. O Eucalipto é conhecido por suas propriedades que auxiliam na respiração, purificando o ar.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Ideal para dias frios ou para quem busca uma sensação de ar puro, esta vela de Eucalipto limpa e refresca o ambiente.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Auxilia na desobstrução das vias respiratórias</li>",
+      "  <li>Aroma herbal e refrescante</li>",
+      "  <li>Purifica e renova o ar do ambiente</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 59,
     "name": "Camomila",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma suave e calmante. A Camomila é um convite ao relaxamento, ajudando a acalmar a mente e a preparar o corpo para uma boa noite de sono.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Crie um refúgio de paz com a fragrância delicada da Camomila. Perfeita para desacelerar e encontrar seu momento de tranquilidade.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Propriedades calmantes e relaxantes</li>",
+      "  <li>Aroma herbal e adocicado</li>",
+      "  <li>Induz a um sono tranquilo</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 60,
     "name": "Gardênia",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fragrância floral branca, elegante e romântica. A Gardênia perfuma o ambiente com um aroma sofisticado e marcante.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Para quem ama perfumes florais intensos, a vela de Gardênia é a escolha perfeita para criar uma atmosfera luxuosa e acolhedora.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma floral, intenso e sofisticado</li>",
+      "  <li>Cria um ambiente romântico</li>",
+      "  <li>Perfuma o espaço de forma marcante</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 61,
     "name": "Calêndula",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma floral suave e acolhedor. A Calêndula traz uma sensação de conforto e alegria, com uma fragrância delicada e levemente adocicada.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>A vela de Calêndula é como um abraço em forma de aroma, ideal para criar um ambiente positivo e convidativo em sua casa.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma floral, suave e alegre</li>",
+      "  <li>Promove o otimismo e o bem-estar</li>",
+      "  <li>Fragrância delicada e agradável</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 62,
     "name": "DS Vanilla",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "lume",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma adocicado e reconfortante de baunilha. Uma fragrância clássica que aquece o ambiente e cria uma atmosfera acolhedora.",
+    "additionalInfo": {
+      "Quantidade": "Vela aromática",
+      "Composição": "Cera vegetal, Essência premium",
+      "Modo de Uso": "Acender em local seguro",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Perfeita para os amantes de aromas doces, a vela de Vanilla traz uma sensação de conforto e doçura para qualquer cômodo da casa.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma doce e reconfortante</li>",
+      "  <li>Cria uma atmosfera acolhedora</li>",
+      "  <li>Fragrância que remete a boas memórias</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 63,
     "name": "Lavanda",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "alento",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fragrância floral e relaxante para o seu ambiente. O aroma da Lavanda acalma, tranquiliza e promove uma atmosfera de paz e serenidade.",
+    "additionalInfo": {
+      "Quantidade": "Difusor de ambiente",
+      "Composição": "Álcool de cereais, Essência premium",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Mantenha seu espaço constantemente perfumado com a fragrância relaxante da Lavanda, ideal para quartos e salas de estar.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Promove o relaxamento e alivia o estresse</li>",
+      "  <li>Aroma floral duradouro</li>",
+      "  <li>Decora e perfuma o ambiente</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 64,
-    "name": "Flor de Cereijeira",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "name": "Flor de Cerejeira",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "alento",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma floral, delicado e romântico. A Flor de Cerejeira simboliza o amor e a felicidade, deixando o ambiente com uma aura positiva.",
+    "additionalInfo": {
+      "Quantidade": "Difusor de ambiente",
+      "Composição": "Álcool de cereais, Essência premium",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Perfume seu espaço com a fragrância sutil e encantadora da Flor de Cerejeira, que traz harmonia e um toque de romance ao ar.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma floral e delicado</li>",
+      "  <li>Cria uma atmosfera romântica e harmoniosa</li>",
+      "  <li>Perfume suave e duradouro</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 65,
     "name": "Capim Limão",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "alento",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Fragrância cítrica e refrescante que renova o ambiente. O Capim Limão traz uma sensação de leveza, limpeza e bem-estar.",
+    "additionalInfo": {
+      "Quantidade": "Difusor de ambiente",
+      "Composição": "Álcool de cereais, Essência premium",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Deixe sua casa com um aroma revigorante e uma sensação de pureza com nosso difusor de Capim Limão, ideal para todos os ambientes.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Sensação de limpeza e frescor</li>",
+      "  <li>Aroma cítrico e revigorante</li>",
+      "  <li>Ideal para cozinhas, banheiros e salas</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 66,
     "name": "Vanilla",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "alento",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma adocicado e reconfortante de baunilha. Uma fragrância clássica que aquece o ambiente e cria uma atmosfera acolhedora e convidativa.",
+    "additionalInfo": {
+      "Quantidade": "Difusor de ambiente",
+      "Composição": "Álcool de cereais, Essência premium",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Para os amantes de aromas doces, o difusor de Vanilla traz uma sensação de conforto e doçura para qualquer cômodo da casa.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma doce e reconfortante</li>",
+      "  <li>Cria uma atmosfera acolhedora</li>",
+      "  <li>Perfume que remete a boas memórias</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 67,
     "name": "Baby",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "alento",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma suave e reconfortante de infância. Uma fragrância delicada que remete ao cheirinho de bebê, trazendo aconchego e paz para o ambiente.",
+    "additionalInfo": {
+      "Quantidade": "Difusor de ambiente",
+      "Composição": "Álcool de cereais, Essência premium",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Crie um ambiente de carinho e tranquilidade com este difusor de aroma suave, perfeito para quartos de bebê ou para quem ama fragrâncias delicadas.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma suave e aconchegante</li>",
+      "  <li>Sensação de conforto e tranquilidade</li>",
+      "  <li>Ideal para quartos e lavabos</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 68,
     "name": "Camomila",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "alento",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Aroma suave e calmante. A Camomila é um convite ao relaxamento, ajudando a acalmar a mente e a criar um ambiente de paz.",
+    "additionalInfo": {
+      "Quantidade": "Difusor de ambiente",
+      "Composição": "Álcool de cereais, Essência premium",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Crie um refúgio de paz com a fragrância delicada da Camomila. Perfeito para desacelerar e encontrar seu momento de tranquilidade diário.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Propriedades calmantes e relaxantes</li>",
+      "  <li>Aroma herbal e adocicado</li>",
+      "  <li>Ideal para quartos e salas de relaxamento</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 69,
     "name": "Floral",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "alento",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Um bouquet de flores para perfumar seu ambiente. Uma fragrância que combina diferentes notas florais para criar um aroma sofisticado e alegre.",
+    "additionalInfo": {
+      "Quantidade": "Difusor de ambiente",
+      "Composição": "Álcool de cereais, Essência premium",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "24 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Como um jardim dentro de casa, este difusor floral traz a beleza e a delicadeza das flores para o seu dia a dia, perfumando de forma elegante.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Aroma floral, rico e sofisticado</li>",
+      "  <li>Cria uma atmosfera alegre e elegante</li>",
+      "  <li>Perfume duradouro e agradável</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 70,
     "name": "Blend de óleos dia",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "duocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado diurno para a pele. Um blend de óleos vegetais selecionados para hidratar, proteger e preparar a pele para o dia, com toque seco.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Blend de óleos vegetais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Esta fórmula leve e de rápida absorção nutre a pele e cria uma barreira protetora contra as agressões externas, ideal para usar antes da maquiagem.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Hidratação e proteção para o dia</li>",
+      "  <li>Toque seco e rápida absorção</li>",
+      "  <li>Ação antioxidante</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 71,
     "name": "Blend de óleos noite",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "duocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Tratamento noturno intensivo. Um blend de óleos nutritivos e regeneradores que trabalham durante a noite para restaurar a vitalidade da pele.",
+    "additionalInfo": {
+      "Quantidade": "30ml",
+      "Composição": "Blend de óleos vegetais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Enquanto você dorme, este blend de óleos atua na regeneração celular, atenuando linhas de expressão e deixando a pele macia e rejuvenescida pela manhã.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Nutrição e regeneração noturna</li>",
+      "  <li>Ação rejuvenescedora e anti-idade</li>",
+      "  <li>Pele mais macia e luminosa ao acordar</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 72,
     "name": "Sabonete líquido 150ml",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "duocare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Limpeza suave e eficaz para o rosto e as mãos. Formulado com ingredientes delicados que limpam sem ressecar a pele.",
+    "additionalInfo": {
+      "Quantidade": "150ml",
+      "Composição": "Ingredientes suaves e naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete líquido produz uma espuma cremosa que remove as impurezas, deixando a pele com uma sensação de frescor, maciez e hidratação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Limpeza suave que não resseca</li>",
+      "  <li>Mantém a hidratação natural da pele</li>",
+      "  <li>Ideal para o uso diário no rosto e mãos</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 73,
-    "name": "Sabonete Líquido Pet",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "name": "Pet Calmaria (Camomila & Aveia)",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "petcare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado calmante para pets com pele sensível. A Camomila e a Aveia ajudam a aliviar coceiras e irritações, promovendo conforto.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete em barra suave que limpa e acalma a pele do seu pet, ideal para animais com sensibilidade ou alergias.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação calmante, alivia coceiras</li>",
+      "  <li>Hidrata e protege a pele sensível</li>",
+      "  <li>Limpeza delicada e eficaz</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 74,
-    "name": "Pet Calmaria (Camomila & Aveia)",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "name": "Pet Pele Serena (Aloe Vera & Calêndula)",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "petcare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Hidratação e cicatrização para a pele do seu pet. A Aloe Vera (babosa) e a Calêndula são conhecidas por suas propriedades regeneradoras.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete em barra ajuda a hidratar e a cicatrizar pequenas feridas e irritações na pele do seu animal de estimação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação hidratante e cicatrizante</li>",
+      "  <li>Regenera e protege a pele</li>",
+      "  <li>Ideal para pets com pele ressecada</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 75,
-    "name": "Pet Pele Serena (Aloe Vera & Calêndula)",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "name": "Pet Brilho Natural (Coco & Karité)",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "petcare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Nutrição e brilho para a pelagem. O Coco e a Manteiga de Karité hidratam profundamente os pelos, deixando-os macios, brilhantes e fáceis de pentear.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Ingredientes Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Um sabonete super nutritivo que revitaliza a pelagem do seu pet, combatendo o ressecamento e devolvendo o brilho natural.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Hidratação profunda para os pelos</li>",
+      "  <li>Promove brilho e maciez</li>",
+      "  <li>Facilita a escovação</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 76,
-    "name": "Pet Brilho Natural (Coco & Karité)",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "name": "Pet Defesa Suave (Neem & Andiroba)",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "petcare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Proteção natural contra pulgas e carrapatos. O Neem e a Andiroba são repelentes naturais que ajudam a manter os parasitas longe do seu pet.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Óleos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete, além de limpar, cria uma barreira protetora na pele do seu animal, auxiliando na prevenção de infestações de forma suave e natural.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação repelente natural</li>",
+      "  <li>Protege contra pulgas e carrapatos</li>",
+      "  <li>Limpeza e proteção em um só produto</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 77,
-    "name": "Pet Defesa Suave (Neem & Andiroba)",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "name": "Pet Refrescante (Hortelã & Alecrim Suave)",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "petcare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Um banho revigorante para o seu pet. A combinação de Hortelã e Alecrim Suave proporciona uma limpeza refrescante, ajudando a neutralizar odores e a acalmar a pele.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete foi desenvolvido para oferecer uma sensação de frescor e limpeza duradoura. A Hortelã revigora enquanto o Alecrim Suave ajuda a manter a pele do seu animal saudável e livre de irritações.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação refrescante e revigorante</li>",
+      "  <li>Ajuda a neutralizar odores</li>",
+      "  <li>Propriedades calmantes para a pele</li>",
+      "</ul>"
+    ]
   },
   {
     "id": 78,
     "name": "Pet Pele Equilibrada (Aveia & Chá Verde)",
-    "imageSrc": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/feature-product-1.png",
+    "images": [
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
     "category": "petcare",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
-    "inStock": true
+    "inStock": true,
+    "shortDescription": "Cuidado antioxidante e equilibrante. A Aveia hidrata e o Chá Verde combate os radicais livres, ideal para a saúde geral da pele do seu pet.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete promove o equilíbrio da pele, limpando suavemente enquanto protege contra o envelhecimento precoce e mantém a hidratação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação antioxidante e protetora</li>",
+      "  <li>Hidrata e equilibra a pele</li>",
+      "  <li>Mantém a pele do pet saudável</li>",
+      "</ul>"
+    ]
   }
 ]

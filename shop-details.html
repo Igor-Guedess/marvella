@@ -49,52 +49,21 @@
                     <h4>Carrinho</h4>
                     <div class="sidemenu-cart-close"><i class="far fa-times"></i></div>
                     <div class="widget-shopping-cart-content">
-                        <ul class="pesco-mini-cart-list">
-                            <li class="sidebar-cart-item">
-                                <a href="#" class="remove-cart"><i class="far fa-trash-alt"></i></a>
-                                <a href="#">
-                                    <img src="assets/images/products/cart-1.jpg" alt="cart image">
-                                    Lorem ipsum dolor sit amet
-                                </a>
-                                <span class="quantity">1 × <span><span class="currency">R$</span>940,00</span></span>
-                            </li>
-                            <li class="sidebar-cart-item">
-                                <a href="#" class="remove-cart"><i class="far fa-trash-alt"></i></a>
-                                <a href="#">
-                                    <img src="assets/images/products/cart-2.jpg" alt="cart image">
-                                    Lorem Ipsum dolor sit amet
-                                </a>
-                                <span class="quantity">1 × <span><span class="currency">R$</span>940,00</span></span>
-                            </li>
-                            <li class="sidebar-cart-item">
-                                <a href="#" class="remove-cart"><i class="far fa-trash-alt"></i></a>
-                                <a href="#">
-                                    <img src="assets/images/products/cart-1.jpg" alt="cart image">
-                                    Lorem Ipsum dolor sit amet
-                                </a>
-                                <span class="quantity">1 × <span><span class="currency">R$</span>940,00</span></span>
-                            </li>
-                            <li class="sidebar-cart-item">
-                                <a href="#" class="remove-cart"><i class="far fa-trash-alt"></i></a>
-                                <a href="#">
-                                    <img src="assets/images/products/cart-2.jpg" alt="cart image">
-                                    Lorem Ipsum dolor sit amet
-                                </a>
-                                <span class="quantity">1 × <span><span class="currency">R$</span>940,00</span></span>
-                            </li>
-                        </ul>
+                        <ul class="pesco-mini-cart-list" id="cart-items-container">
+                            </ul>
                         <div class="cart-mini-total">
                             <div class="cart-total">
-                                <span><strong>Total:</strong></span> <span class="amount">4 × <span><span class="currency">$</span>940,00</span></span>
+                                <span><strong>Total:</strong></span> <span id="cart-total-price" class="amount"><span class="currency">R$</span>0,00</span>
                             </div>
                         </div>
                         <div class="cart-button-box">
-                            <a href="checkout.html" class="theme-btn style-one">Prosseguir para Checkout</a>
+                            <a href="#" class="theme-btn style-one" id="checkout-button">Finalizar Compra</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><!--====== End Sidemenu-wrapper-cart Area ======-->
+        </div>
+        <!--====== End Sidemenu-wrapper-cart Area ======-->
         <!--====== Start Header Section ======-->
         <header class="header-area">
             <!--===  Search Header Main  ===-->
@@ -329,140 +298,19 @@
                                 <!--=== Product Gallery ===-->
                                 <div class="product-gallery-area mb-50" data-aos="fade-up" data-aos-duration="1200">
                                     <div class="product-big-slider mb-30">
-                                        <div class="product-img">
-                                            <a href="assets/images/products/product-big-1.jpg" class="img-popup"><img src="assets/images/products/product-big-1.jpg" alt="Product"></a>
-                                        </div>
-                                        <div class="product-img">
-                                            <a href="assets/images/products/product-big-2.jpg" class="img-popup"><img src="assets/images/products/product-big-2.jpg" alt="Product"></a>
-                                        </div>
-                                        <div class="product-img">
-                                            <a href="assets/images/products/product-big-3.jpg" class="img-popup"><img src="assets/images/products/product-big-3.jpg" alt="Product"></a>
-                                        </div>
-                                        <div class="product-img">
-                                            <a href="assets/images/products/product-big-4.jpg" class="img-popup"><img src="assets/images/products/product-big-4.jpg" alt="Product"></a>
-                                        </div>
-                                        <div class="product-img">
-                                            <a href="assets/images/products/product-big-5.jpg" class="img-popup"><img src="assets/images/products/product-big-5.jpg" alt="Product"></a>
-                                        </div>
                                     </div>
                                     <div class="product-thumb-slider">
-                                        <div class="product-img">
-                                            <img src="assets/images/products/product-thumb-1.jpg" alt="Product">
-                                        </div>
-                                        <div class="product-img">
-                                            <img src="assets/images/products/product-thumb-2.jpg" alt="Product">
-                                        </div>
-                                        <div class="product-img">
-                                            <img src="assets/images/products/product-thumb-3.jpg" alt="Product">
-                                        </div>
-                                        <div class="product-img">
-                                            <img src="assets/images/products/product-thumb-4.jpg" alt="Product">
-                                        </div>
-                                        <div class="product-img">
-                                            <img src="assets/images/products/product-thumb-5.jpg" alt="Product">
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6">
                                 <div class="product-info mb-50" data-aos="fade-up" data-aos-duration="1400">
-                                    <span class="sale"><i class="fas fa-tags"></i>SALE 70% OFF</span>
-                                    <h4 class="title">Cargo shorts with pockets & sundress drawstring </h4>
-                                    <ul class="ratings rating5">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><a href="#">(45 Reviews)</a></li>
-                                    </ul>
-                                    <p>A type of casual shorts, typically for men, with multiple pockets for function.
-                                        Sundress with drawstring: A loose-fitting, sleeveless dress, often for women, with a drawstring at the waist for adjustability and a relaxed silhouette.</p>
+                                    <span class="sale"></span>
+                                    <h4 class="title"></h4>
+                                    <p class="short-description"></p>
                                     <div class="product-price">
-                                        <span class="price prev-price"><span class="currency">$</span>70.00</span>
-                                        <span class="price new-price"><span class="currency">$</span>40.00</span>
-                                    </div>
-                                    <div class="product-color">
-                                        <h4 class="mb-15">Color</h4>
-                                        <ul class="color-list mb-20">
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="black" id="color1">
-                                                    <label class="form-check-label" for="color1">
-                                                        <span class="color1"></span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="red" id="color2">
-                                                    <label class="form-check-label" for="color2">
-                                                        <span class="color2"></span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="blue" id="color3">
-                                                    <label class="form-check-label" for="color3">
-                                                        <span class="color3"></span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="blue" id="color4">
-                                                    <label class="form-check-label" for="color4">
-                                                        <span class="color4"></span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="product-size">
-                                        <h4 class="mb-15">Size</h4>
-                                        <ul class="size-list mb-30">
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="Slim Fit" id="size2">
-                                                    <label class="form-check-label" for="size2">
-                                                        S
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="Slim Fit" id="size3">
-                                                    <label class="form-check-label" for="size3">
-                                                        M
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="Slim Fit" id="size4">
-                                                    <label class="form-check-label" for="size4">
-                                                        L
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="Slim Fit" id="size5">
-                                                    <label class="form-check-label" for="size5">
-                                                        XL
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="radio" value="Slim Fit" id="size6">
-                                                    <label class="form-check-label" for="size6">
-                                                        2XL
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                        <span class="price prev-price"></span>
+                                        <span class="price new-price"></span>
                                     </div>
                                     <div class="product-cart-variation">
                                         <ul>
@@ -474,32 +322,13 @@
                                                 </div>
                                             </li>
                                             <li>
-                                                <a href="shops.html" class="theme-btn style-one">Add To cart</a>
-                                            </li>
-                                            <li>
-                                                <a href="shops.html" class="icon-btn"><i class="far fa-heart"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="shops.html" class="icon-btn"><i class="far fa-sync"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="product-meta">
-                                        <ul>
-                                            <li><span>SKU :</span>KE-91039</li>
-                                            <li><span>Category :</span>Women Cloths</li>
-                                            <li><span>Tags :</span><a href="#">Bags</a>,<a href="#">Cloths</a>,<a href="#">Dress</a></li>
-                                            <li><span>Share :</span>
-                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#!" class="theme-btn style-one">Adicionar ao Carrinho</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="special-features">
-                                        <span><i class="far fa-shipping-fast"></i>Free Shipping</span>
-                                        <span><i class="far fa-box-open"></i>Easy Returns</span>
+                                        <span><i class="far fa-shipping-fast"></i>Envio para todo Brasil</span>
+                                        <span><i class="far fa-box-open"></i>Fácil Devolução</span>
                                     </div>
                                 </div>
                             </div>
@@ -508,173 +337,29 @@
                             <div class="row">
                                 <div class="col-lg-5">
                                     <div class="additional-info-box mb-40">
-                                        <h3>Additional Information:</h3>
-                                        <ul>
-                                            <li>Fabric type <span>Georgette</span></li>
-                                            <li>Care instructions:<span>Machine Wash</span></li>
-                                            <li>Occasion type: <span>Casual</span></li>
-                                            <li>Sleeve type: <span>Long Sleeve</span></li>
-                                            <li>Pattern:<span>Solid</span></li>
-                                            <li>Closure type: <span>Georgette</span></li>
-                                            <li>Country of Origin<span>Bangladesh</span></li>
-                                        </ul>
+                                        <h3>Informações Adicionais:</h3> <ul>
+                                            </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="description-wrapper mb-40">
-                                        <div class="pesco-tabs style-two mb-50">
-                                            <ul class="nav nav-tabs">
-                                                <li>
-                                                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#description">Description</button>
-                                                </li>
-                                                <li>
-                                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#reviews">Reviews</button>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="tab-content">
-                                            <div class="tab-pane fade active show" id="description">
-                                                <h4>Description</h4>
-                                                <p>Cargo shorts: Rugged, casual shorts with multiple pockets for utility, often in khaki or olive green.
-                                                    Sundress with drawstring: A breezy, summery dress with a flowy skirt, often made from light, patterned fabric. It has a drawstring waist for a comfortable, adjustable fit. Designed for practicality, cargo shorts boast numerous pockets on the legs and hips. everyday wear for someone who needs to carry a lot.</p>
-                                                <h4>Features</h4>
-                                                <ul class="list">
-                                                    <li>Function First</li>
-                                                    <li>Summer Breeze </li>
-                                                    <li>Casual and Rugged</li>
-                                                    <li>Possible Interpretations</li>
-                                                </ul>
-                                            </div>
-                                            <div class="tab-pane fade" id="reviews">
-                                                <div class="pesco-comment-area mb-80">
-                                                    <h4>Total Reviews (90)</h4>
-                                                    <ul>
-                                                        <li class="comment">
-                                                            <div class="pesco-reviews-item">
-                                                                <div class="author-thumb-info">
-                                                                    <div class="author-thumb">
-                                                                        <img src="assets/images/products/review-1.jpg" alt="Auhthor">
-                                                                    </div>
-                                                                    <div class="author-info">
-                                                                        <h5>Amelia Rodriguez</h5>
-                                                                        <div class="author-meta">
-                                                                            <ul class="ratings">
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                            </ul>
-                                                                            <span>20 March 2024</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="author-review-content">
-                                                                    <p>Men’s Slim Fit Dress Shirt is an excellent choice for those who value modern style and impeccable tailoring. Crafted from a high-quality blend of cotton and polyester, this shirt offers a smooth, wrinkle-resistant finish that stays crisp throughout the day.</p>
-                                                                </div>
-                                                                <a href="#" class="reply"><i class="fas fa-reply-all"></i>Reply</a>
-                                                            </div>
-                                                        </li>
-                                                        <li class="comment">
-                                                            <div class="pesco-reviews-item">
-                                                                <div class="author-thumb-info">
-                                                                    <div class="author-thumb">
-                                                                        <img src="assets/images/products/review-2.jpg" alt="Auhthor">
-                                                                    </div>
-                                                                    <div class="author-info">
-                                                                        <h5>Amelia Rodriguez</h5>
-                                                                        <div class="author-meta">
-                                                                            <ul class="ratings">
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                                <li><i class="fas fa-star"></i></li>
-                                                                            </ul>
-                                                                            <span>20 March 2024</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="author-review-content">
-                                                                    <p>Men’s Slim Fit Dress Shirt is an excellent choice for those who value modern style and impeccable tailoring. Crafted from a high-quality blend of cotton and polyester, this shirt offers a smooth, wrinkle-resistant finish that stays crisp throughout the day.</p>
-                                                                </div>
-                                                                <a href="#" class="reply"><i class="fas fa-reply-all"></i>Reply</a>
-                                                            </div>
-                                                            <ul class="reviews-reply">
-                                                                <li class="comment">
-                                                                    <div class="pesco-reviews-item">
-                                                                        <div class="author-thumb-info">
-                                                                            <div class="author-thumb">
-                                                                                <img src="assets/images/products/review-3.jpg" alt="Auhthor">
-                                                                            </div>
-                                                                            <div class="author-info">
-                                                                                <h5>Amelia Rodriguez</h5>
-                                                                                <div class="author-meta">
-                                                                                    <ul class="ratings">
-                                                                                        <li><i class="fas fa-star"></i></li>
-                                                                                        <li><i class="fas fa-star"></i></li>
-                                                                                        <li><i class="fas fa-star"></i></li>
-                                                                                        <li><i class="fas fa-star"></i></li>
-                                                                                        <li><i class="fas fa-star"></i></li>
-                                                                                    </ul>
-                                                                                    <span>20 March 2024</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="author-review-content">
-                                                                            <p>Men’s Slim Fit Dress Shirt is an excellent choice for those who value modern style and impeccable tailoring. Crafted from a high-quality blend of cotton and polyester, this shirt offers a smooth, wrinkle-resistant finish that stays crisp throughout the day.</p>
-                                                                        </div>
-                                                                        <a href="#" class="reply"><i class="fas fa-reply-all"></i>Reply</a>
-                                                                    </div>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="reviews-contact-area">
-                                                    <h4>Write Comment</h4>
-                                                    <ul class="ratings rating5 mb-40">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><a href="#">(10)</a></li>
-                                                    </ul>
-                                                    <form class="pesco-contact-form">
-                                                        <div class="row">
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group">
-                                                                    <input type="text" placeholder="Name" class="form_control" name="name" required>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group">
-                                                                    <input type="email" placeholder="Email" class="form_control" name="Email" required>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-12">
-                                                                <div class="form-group">
-                                                                    <textarea class="form_control" placeholder="Write Reviews" name="message" cols="5" rows="10"></textarea>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-12">
-                                                                <div class="form-group">
-                                                                    <button class="theme-btn style-one">Submit Review</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <div id="informations">
+                                        <h4>Descrição</h4>
+                                        <p>Texto da descrição do produto.</p>
+                                        <h4>Características</h4>
+                                        <ul class="list">
+                                            <li>Característica 1</li>
+                                            <li>Característica 2</li>
+                                        </ul>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section><!--====== End Shop Details Section ======-->
+            </section>
+            <!--====== End Shop Details Section ======-->
             <!--====== Related Product Section ======-->
             <section class="releted-product-section pb-90">
                 <div class="container">
@@ -684,9 +369,9 @@
                             <div class="section-title mb-50" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                                 <div class="sub-heading d-inline-flex align-items-center">
                                     <i class="flaticon-sparkler"></i>
-                                    <span class="sub-title">Releted Products</span>
+                                    <span class="sub-title">Produtos Relacionados</span>
                                 </div>
-                                <h2>Customers also purchased</h2>
+                                <h2>Os Clientes Também Compraram</h2>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -694,164 +379,10 @@
                         </div>
                     </div>
                     <div class="releted-product-slider">
-                        <!--=== Project Item  ===-->
-                        <div class="product-item style-one mb-40" data-aos="fade-up" data-aos-delay="90" data-aos-duration="1500">
-                            <div class="product-thumbnail">
-                                <img src="assets/images/products/feature-product-1.png" alt="Products">
-                                <div class="discount">80% Off</div>
-                                <div class="hover-content">
-                                    <a href="#" class="icon-btn"><i class="fa fa-heart"></i></a>
-                                    <a href="assets/images/products/feature-product-1.png" class="img-popup icon-btn"><i class="fa fa-eye"></i></a>
-                                </div>
-                                <div class="cart-button">
-                                    <a href="#" class="cart-btn"><i class="far fa-shopping-basket"></i> <span class="text">Add To Cart</span></a>
-                                </div>
-                            </div>
-                            <div class="product-info-wrap">
-                                <div class="product-info">
-                                    <ul class="ratings rating4">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><a href="#">(50)</a></li>
-                                    </ul>
-                                    <h4 class="title"><a href="shop-details.html">Cozy knit sweater with pockets</a></h4>
-                                </div>
-                                <div class="product-price">
-                                    <span class="price prev-price"><span class="currency">$</span>67.00</span>
-                                    <span class="price new-price"><span class="currency">$</span>23.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--=== Project Item  ===-->
-                        <div class="product-item style-one mb-40" data-aos="fade-up" data-aos-delay="90" data-aos-duration="1700">
-                            <div class="product-thumbnail">
-                                <img src="assets/images/products/feature-product-2.png" alt="Products">
-                                <div class="discount">80% Off</div>
-                                <div class="hover-content">
-                                    <a href="#" class="icon-btn"><i class="fa fa-heart"></i></a>
-                                    <a href="assets/images/products/feature-product-2.png" class="img-popup icon-btn"><i class="fa fa-eye"></i></a>
-                                </div>
-                                <div class="cart-button">
-                                    <a href="#" class="cart-btn"><i class="far fa-shopping-basket"></i> <span class="text">Add To Cart</span></a>
-                                </div>
-                            </div>
-                            <div class="product-info-wrap">
-                                <div class="product-info">
-                                    <ul class="ratings rating5">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><a href="#">(80)</a></li>
-                                    </ul>
-                                    <h4 class="title"><a href="shop-details.html">Elegant silk dress with sequins</a></h4>
-                                </div>
-                                <div class="product-price">
-                                    <span class="price prev-price"><span class="currency">$</span>67.00</span>
-                                    <span class="price new-price"><span class="currency">$</span>23.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--=== Project Item  ===-->
-                        <div class="product-item style-one mb-40" data-aos="fade-up" data-aos-delay="110" data-aos-duration="1900">
-                            <div class="product-thumbnail">
-                                <img src="assets/images/products/feature-product-3.png" alt="Products">
-                                <div class="discount">40% Off</div>
-                                <div class="hover-content">
-                                    <a href="#" class="icon-btn"><i class="fa fa-heart"></i></a>
-                                    <a href="assets/images/products/feature-product-3.png" class="img-popup icon-btn"><i class="fa fa-eye"></i></a>
-                                </div>
-                                <div class="cart-button">
-                                    <a href="#" class="cart-btn"><i class="far fa-shopping-basket"></i> <span class="text">Add To Cart</span></a>
-                                </div>
-                            </div>
-                            <div class="product-info-wrap">
-                                <div class="product-info">
-                                    <ul class="ratings rating2">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><a href="#">(47)</a></li>
-                                    </ul>
-                                    <h4 class="title"><a href="shop-details.html">Cargo shorts with pockets and drawstring</a></h4>
-                                </div>
-                                <div class="product-price">
-                                    <span class="price prev-price"><span class="currency">$</span>67.00</span>
-                                    <span class="price new-price"><span class="currency">$</span>23.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--=== Project Item  ===-->
-                        <div class="product-item style-one mb-40" data-aos="fade-up" data-aos-delay="130" data-aos-duration="2100">
-                            <div class="product-thumbnail">
-                                <img src="assets/images/products/feature-product-4.png" alt="Products">
-                                <div class="discount">10% Off</div>
-                                <div class="hover-content">
-                                    <a href="#" class="icon-btn"><i class="fa fa-heart"></i></a>
-                                    <a href="assets/images/products/feature-product-4.png" class="img-popup icon-btn"><i class="fa fa-eye"></i></a>
-                                </div>
-                                <div class="cart-button">
-                                    <a href="#" class="cart-btn"><i class="far fa-shopping-basket"></i> <span class="text">Add To Cart</span></a>
-                                </div>
-                            </div>
-                            <div class="product-info-wrap">
-                                <div class="product-info">
-                                    <ul class="ratings rating4">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><a href="#">(47)</a></li>
-                                    </ul>
-                                    <h4 class="title"><a href="shop-details.html">Athletic leggings with mesh panels</a></h4>
-                                </div>
-                                <div class="product-price">
-                                    <span class="price prev-price"><span class="currency">$</span>80.00</span>
-                                    <span class="price new-price"><span class="currency">$</span>40.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--=== Project Item  ===-->
-                        <div class="product-item style-one mb-40" data-aos="fade-up" data-aos-delay="150" data-aos-duration="2300">
-                            <div class="product-thumbnail">
-                                <img src="assets/images/products/feature-product-2.png" alt="Products">
-                                <div class="discount">80% Off</div>
-                                <div class="hover-content">
-                                    <a href="#" class="icon-btn"><i class="fa fa-heart"></i></a>
-                                    <a href="assets/images/products/feature-product-2.png" class="img-popup icon-btn"><i class="fa fa-eye"></i></a>
-                                </div>
-                                <div class="cart-button">
-                                    <a href="#" class="cart-btn"><i class="far fa-shopping-basket"></i> <span class="text">Add To Cart</span></a>
-                                </div>
-                            </div>
-                            <div class="product-info-wrap">
-                                <div class="product-info">
-                                    <ul class="ratings rating5">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><a href="#">(80)</a></li>
-                                    </ul>
-                                    <h4 class="title"><a href="shop-details.html">Elegant silk dress with sequins</a></h4>
-                                </div>
-                                <div class="product-price">
-                                    <span class="price prev-price"><span class="currency">$</span>67.00</span>
-                                    <span class="price new-price"><span class="currency">$</span>23.00</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </section><!--====== End Product Section ======-->
+            </section>
+            <!--====== End Product Section ======-->
             <!--====== Start Newsletter Sections  ======-->
             <section class="newsletter-section pb-95">
                 <div class="container">
@@ -863,14 +394,8 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="newsletter-content-box">
-                                    <span class="sub-text">Our Newsletter</span>
-                                    <h3>Get weekly update. Sign up and get up to <span>20% off</span> your first purchase</h3>
-                                    <form>
-                                        <div class="form-group">
-                                            <input type="email" class="form_control" placeholder="Write your Email Address" name="email">
-                                            <button class="theme-btn style-one">Subscribe</button>
-                                        </div>
-                                    </form>
+                                    <span class="sub-text">Mais do que higiene</span>
+                                    <h3>Saúde, hidratação, rejuvenescimento<br> e <span>qualidade de vida</span></h3>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -1041,5 +566,9 @@
         <script src="assets/vendor/aos/aos.js"></script>
         <!--====== Main js ======-->
         <script src="assets/js/theme.js"></script>
+        <!--====== Products js ======-->
+        <script src="assets/js/shop-details.js"></script>
+        <!--====== Cart js ======-->
+        <script src="assets/js/cart.js"></script>
     </body>
 </html>
