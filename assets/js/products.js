@@ -1,4 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const CATEGORY_DISPLAY_NAMES = {
+    "argila": "Argila Pura",
+    "dermocare": "Dermocare",
+    "puraessencia": "Pura Essência",
+    "natureza": "Essência da Natureza",
+    "oleos": "Óleos Puros",
+    "lume": "Lume",
+    "alento": "Alento",
+    "duocare": "Duocare",
+    "petcare": "Pet Care",
+    "vela": "Velas Artesanais"
+    };
+
     // Variáveis de paginação
     const PRODUCTS_PER_PAGE = 12;
     let currentPage = 1;

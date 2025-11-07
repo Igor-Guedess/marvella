@@ -3,12 +3,12 @@
     "id": 1,
     "name": "Argila Branca",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "argila",
     "price": 40.00,
@@ -38,12 +38,12 @@
     "id": 2,
     "name": "Argila Vermelha",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "argila",
     "price": 40.00,
@@ -73,12 +73,12 @@
     "id": 3,
     "name": "Argila Rosa",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "argila",
     "price": 40.00,
@@ -108,12 +108,12 @@
     "id": 4,
     "name": "Argila Roxa",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "argila",
     "price": 40.00,
@@ -143,12 +143,12 @@
     "id": 5,
     "name": "Argila Amarela",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "argila",
     "price": 40.00,
@@ -178,12 +178,12 @@
     "id": 6,
     "name": "Argila Cinza",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "argila",
     "price": 40.00,
@@ -213,12 +213,12 @@
     "id": 7,
     "name": "Argila Verde",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "argila",
     "price": 40.00,
@@ -248,12 +248,12 @@
     "id": 8,
     "name": "Argila Rosa + Óleo de Rosa Mosqueta + Vitamina E",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
@@ -282,12 +282,12 @@
   {
     "id": 9,
     "name": "Argila Branca + Colágeno + Vitaminas E",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
@@ -316,12 +316,12 @@
   {
     "id": 10,
     "name": "Argila Amarela + Colágeno + Vitaminas A e E",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
@@ -350,12 +350,12 @@
   {
     "id": 11,
     "name": "Argila Roxa + Colágeno + Vitamina E",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
@@ -384,12 +384,12 @@
   {
     "id": 12,
     "name": "Argila Branca + Dolomita + Óleo de Semente de Uva",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
@@ -418,12 +418,12 @@
   {
     "id": 13,
     "name": "Açafrão em pó + Argila Branca + Óleo de Amêndoas Doces",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
@@ -452,12 +452,12 @@
   {
     "id": 14,
     "name": "Argila Preta + Carvão Ativo + Óleo de Jojoba",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
@@ -486,12 +486,12 @@
   {
     "id": 15,
     "name": "Arroz com Argila Branca e Vitamina E (anti-idade e clareador)",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
@@ -520,12 +520,12 @@
   {
     "id": 16,
     "name": "Ameixa Negra + Extrato de Ameixa Negra",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -554,12 +554,12 @@
   {
     "id": 17,
     "name": "Chá branco + Extrato de Chá Branco",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -588,12 +588,12 @@
   {
     "id": 18,
     "name": "Erva Doce + Extrato de Erva-Doce",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -622,12 +622,12 @@
   {
     "id": 19,
     "name": "Morango + Extrato de Morango",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -656,12 +656,12 @@
   {
     "id": 20,
     "name": "Perfume de Bebê + Extrato de Aveia",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -690,12 +690,12 @@
   {
     "id": 21,
     "name": "Lavanda + Extrato de Lavanda",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -724,12 +724,12 @@
   {
     "id": 22,
     "name": "Cereja e Avelã + Extrato de Cereja + Óleo de Avelã",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -758,12 +758,12 @@
   {
     "id": 23,
     "name": "Rosa Mosqueta + Óleo de Rosa Mosqueta + Extrato de Rosa",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -792,12 +792,12 @@
   {
     "id": 24,
     "name": "Maracujá + Extrato de Maracujá",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -826,12 +826,12 @@
   {
     "id": 25,
     "name": "Limão + Extrato + Óleo Essencial de Limão",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -860,12 +860,12 @@
   {
     "id": 26,
     "name": "Romã + Extrato de Romã",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -894,12 +894,12 @@
   {
     "id": 27,
     "name": "Melancia + Extrato de Melancia",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -928,12 +928,12 @@
   {
     "id": 28,
     "name": "Pitaya + Extrato de Pitaya",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -962,12 +962,12 @@
   {
     "id": 29,
     "name": "Uva + Extrato de Uva",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -996,12 +996,12 @@
   {
     "id": 30,
     "name": "Maçã Verde + Extrato de Maçã Verde",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "puraessencia",
     "price": 40.00,
@@ -1030,12 +1030,12 @@
   {
     "id": 31,
     "name": "Rosa Mosqueta + Hibisco & Argila Rosa",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1064,12 +1064,12 @@
   {
     "id": 32,
     "name": "Barbatimão + Copaíba & Argila Verde",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1098,12 +1098,12 @@
   {
     "id": 33,
     "name": "7 Ervas",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1132,12 +1132,12 @@
   {
     "id": 34,
     "name": "Aroeira",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1166,12 +1166,12 @@
   {
     "id": 35,
     "name": "Copaíba",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1200,12 +1200,12 @@
   {
     "id": 36,
     "name": "Enxofre + Carvão Ativo",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1234,12 +1234,12 @@
   {
     "id": 37,
     "name": "Mel",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1268,12 +1268,12 @@
   {
     "id": 38,
     "name": "Maracujá",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1302,12 +1302,12 @@
   {
     "id": 39,
     "name": "Melancia",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1336,12 +1336,12 @@
   {
     "id": 40,
     "name": "Limão",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1370,12 +1370,12 @@
   {
     "id": 41,
     "name": "Erva Doce",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1404,12 +1404,12 @@
   {
     "id": 42,
     "name": "Coco",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1438,12 +1438,12 @@
   {
     "id": 43,
     "name": "Camomila + Calêndula",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "natureza",
     "price": 40.00,
@@ -1472,9 +1472,9 @@
   {
     "id": 44,
     "name": "Óleo de Rosa Mosqueta",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/oleo_rosa_mosqueta.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/oleo_rosa_mosqueta_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
@@ -1486,7 +1486,7 @@
     "inStock": true,
     "shortDescription": "Poderoso regenerador celular. O Óleo de Rosa Mosqueta é rico em ácidos graxos essenciais, ideal para atenuar cicatrizes, estrias, rugas e linhas de expressão.",
     "additionalInfo": {
-      "Quantidade": "30ml",
+      "Quantidade": "50ml",
       "Composição": "Óleo 100% puro e vegetal",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
@@ -1506,9 +1506,9 @@
   {
     "id": 45,
     "name": "Óleo de Semente de Uva",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/oleo_semente_de_uva.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/oleo_semente_de_uva_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
@@ -1520,7 +1520,7 @@
     "inStock": true,
     "shortDescription": "Hidratação leve e antioxidante. O Óleo de Semente de Uva é fino e de rápida absorção, ideal para todos os tipos de pele, combatendo os radicais livres.",
     "additionalInfo": {
-      "Quantidade": "30ml",
+      "Quantidade": "50ml",
       "Composição": "Óleo 100% puro e vegetal",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
@@ -1540,9 +1540,9 @@
   {
     "id": 46,
     "name": "Óleo de Jojoba",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/oleo_jojoba.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/oleo_jojoba_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
@@ -1554,7 +1554,7 @@
     "inStock": true,
     "shortDescription": "O regulador de oleosidade natural. O Óleo de Jojoba tem uma composição similar à do sebo da pele, ajudando a equilibrar a produção de oleosidade.",
     "additionalInfo": {
-      "Quantidade": "30ml",
+      "Quantidade": "50ml",
       "Composição": "Óleo 100% puro e vegetal",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
@@ -1574,9 +1574,9 @@
   {
     "id": 47,
     "name": "Óleo de Amêndoas Doces",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/oleo_amendoas_doces.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/oleo_amendoas_doces_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
@@ -1588,7 +1588,7 @@
     "inStock": true,
     "shortDescription": "Hidratação profunda e prevenção de estrias. O Óleo de Amêndoas Doces é um emoliente clássico, ideal para peles secas e para gestantes.",
     "additionalInfo": {
-      "Quantidade": "30ml",
+      "Quantidade": "50ml",
       "Composição": "Óleo 100% puro e vegetal",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
@@ -1606,45 +1606,11 @@
     ]
   },
   {
-    "id": 48,
-    "name": "Óleo de Coco Fracionado",
-    "thumbnail": "assets/images/products/feature-product-1.png",
-    "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
-    ],
-    "category": "oleos",
-    "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true,
-    "shortDescription": "Hidratação versátil para pele e cabelo. O Óleo de Coco Fracionado é leve, sem cheiro e de rápida absorção, ideal como carreador para óleos essenciais.",
-    "additionalInfo": {
-      "Quantidade": "30ml",
-      "Composição": "Óleo 100% puro e vegetal",
-      "Modo de Uso": "Aplicar na pele limpa",
-      "Validade": "12 meses",
-      "Origem": "Brasil"
-    },
-    "informations": [
-      "<h4>Descrição</h4>",
-      "<p>Este óleo nutre profundamente a pele e os cabelos sem deixar resíduos gordurosos, sendo uma excelente base para suas misturas de aromaterapia.</p>",
-      "<h4>Benefícios</h4>",
-      "<ul class='list'>",
-      "  <li>Hidratação leve para pele e cabelo</li>",
-      "  <li>Rápida absorção e toque seco</li>",
-      "  <li>Excelente óleo carreador</li>",
-      "</ul>"
-    ]
-  },
-  {
     "id": 49,
     "name": "Óleo de Abacate",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/oleo_abacate.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/oleo_abacate_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
@@ -1656,7 +1622,7 @@
     "inStock": true,
     "shortDescription": "Nutrição intensiva para peles secas e cabelos danificados. Rico em vitaminas A, D e E, o Óleo de Abacate restaura a vitalidade e a maciez.",
     "additionalInfo": {
-      "Quantidade": "30ml",
+      "Quantidade": "50ml",
       "Composição": "Óleo 100% puro e vegetal",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
@@ -1676,9 +1642,9 @@
   {
     "id": 50,
     "name": "Óleo de Girassol",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/oleo_girassol.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/oleo_girassol_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
@@ -1690,7 +1656,7 @@
     "inStock": true,
     "shortDescription": "Hidratação e proteção para a pele. O Óleo de Girassol é rico em Vitamina E, um poderoso antioxidante que ajuda a proteger a pele dos danos externos.",
     "additionalInfo": {
-      "Quantidade": "30ml",
+      "Quantidade": "50ml",
       "Composição": "Óleo 100% puro e vegetal",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
@@ -1710,9 +1676,9 @@
   {
     "id": 51,
     "name": "Óleo de Prímula + Rosa Mosqueta",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/oleo_primula_e_rosa_mosqueta.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/oleo_primula_e_rosa_mosqueta_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
@@ -1724,7 +1690,7 @@
     "inStock": true,
     "shortDescription": "Cuidado intensivo para peles maduras e com sinais de envelhecimento. Uma combinação poderosa que melhora a firmeza, a elasticidade e a hidratação.",
     "additionalInfo": {
-      "Quantidade": "30ml",
+      "Quantidade": "50ml",
       "Composição": "Óleos 100% puros e vegetais",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
@@ -1744,9 +1710,9 @@
   {
     "id": 52,
     "name": "Óleo Semente De Abobora",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/oleo_semente_de_abobora.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/oleo_semente_de_abobora_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
@@ -1758,7 +1724,7 @@
     "inStock": true,
     "shortDescription": "Nutrição e fortalecimento para pele e cabelos. Rico em zinco e antioxidantes, o Óleo de Semente de Abóbora ajuda a combater a queda capilar e a acne.",
     "additionalInfo": {
-      "Quantidade": "30ml",
+      "Quantidade": "50ml",
       "Composição": "Óleo 100% puro e vegetal",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
@@ -1778,12 +1744,12 @@
   {
     "id": 53,
     "name": "Lavanda",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -1812,12 +1778,12 @@
   {
     "id": 54,
     "name": "Alecrim",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -1846,12 +1812,12 @@
   {
     "id": 55,
     "name": "Capim Limão",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -1880,12 +1846,12 @@
   {
     "id": 56,
     "name": "Love SPL (Baby)",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -1914,12 +1880,12 @@
   {
     "id": 57,
     "name": "Flor de Lótus",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -1948,12 +1914,12 @@
   {
     "id": 58,
     "name": "Eucalipto",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -1982,12 +1948,12 @@
   {
     "id": 59,
     "name": "Camomila",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -2016,12 +1982,12 @@
   {
     "id": 60,
     "name": "Gardênia",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -2050,12 +2016,12 @@
   {
     "id": 61,
     "name": "Calêndula",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -2084,12 +2050,12 @@
   {
     "id": 62,
     "name": "DS Vanilla",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "lume",
     "price": 40.00,
@@ -2118,12 +2084,12 @@
   {
     "id": 63,
     "name": "Lavanda",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "alento",
     "price": 40.00,
@@ -2152,12 +2118,12 @@
   {
     "id": 64,
     "name": "Flor de Cerejeira",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "alento",
     "price": 40.00,
@@ -2186,12 +2152,12 @@
   {
     "id": 65,
     "name": "Capim Limão",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "alento",
     "price": 40.00,
@@ -2220,12 +2186,12 @@
   {
     "id": 66,
     "name": "Vanilla",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "alento",
     "price": 40.00,
@@ -2254,12 +2220,12 @@
   {
     "id": 67,
     "name": "Baby",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "alento",
     "price": 40.00,
@@ -2288,12 +2254,12 @@
   {
     "id": 68,
     "name": "Camomila",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "alento",
     "price": 40.00,
@@ -2322,12 +2288,12 @@
   {
     "id": 69,
     "name": "Floral",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "alento",
     "price": 40.00,
@@ -2356,12 +2322,12 @@
   {
     "id": 70,
     "name": "Blend de óleos dia",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "duocare",
     "price": 40.00,
@@ -2390,12 +2356,12 @@
   {
     "id": 71,
     "name": "Blend de óleos noite",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "duocare",
     "price": 40.00,
@@ -2424,12 +2390,12 @@
   {
     "id": 72,
     "name": "Sabonete líquido 150ml",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "duocare",
     "price": 40.00,
@@ -2458,12 +2424,12 @@
   {
     "id": 73,
     "name": "Pet Calmaria (Camomila & Aveia)",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "petcare",
     "price": 40.00,
@@ -2492,12 +2458,12 @@
   {
     "id": 74,
     "name": "Pet Pele Serena (Aloe Vera & Calêndula)",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "petcare",
     "price": 40.00,
@@ -2526,12 +2492,12 @@
   {
     "id": 75,
     "name": "Pet Brilho Natural (Coco & Karité)",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "petcare",
     "price": 40.00,
@@ -2560,12 +2526,12 @@
   {
     "id": 76,
     "name": "Pet Defesa Suave (Neem & Andiroba)",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "petcare",
     "price": 40.00,
@@ -2594,12 +2560,12 @@
   {
     "id": 77,
     "name": "Pet Refrescante (Hortelã & Alecrim Suave)",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
     ],
     "category": "petcare",
     "price": 40.00,
@@ -2628,14 +2594,116 @@
   {
     "id": 78,
     "name": "Pet Pele Equilibrada (Aveia & Chá Verde)",
-    "thumbnail": "assets/images/products/feature-product-1.png",
+    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
-      "assets/images/products/teste.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png",
+      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/placeholder_02.png"
+    ],
+    "category": "petcare",
+    "price": 40.00,
+    "discount": false,
+    "discountPercent": null,
+    "inStock": true,
+    "shortDescription": "Cuidado antioxidante e equilibrante. A Aveia hidrata e o Chá Verde combate os radicais livres, ideal para a saúde geral da pele do seu pet.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete promove o equilíbrio da pele, limpando suavemente enquanto protege contra o envelhecimento precoce e mantém a hidratação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação antioxidante e protetora</li>",
+      "  <li>Hidrata e equilibra a pele</li>",
+      "  <li>Mantém a pele do pet saudável</li>",
+      "</ul>"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Lavanda com Baunilha",
+    "thumbnail": "assets/images/products/catalogue/vela_lavanda_com_baunilha.png",
+    "images": [
+      "assets/images/products/details/vela_lavanda_com_baunilha_01.png",
       "assets/images/products/teste2.png",
       "assets/images/products/teste.png",
       "assets/images/products/teste2.png"
     ],
-    "category": "petcare",
+    "category": "vela",
+    "price": 40.00,
+    "discount": false,
+    "discountPercent": null,
+    "inStock": true,
+    "shortDescription": "Cuidado antioxidante e equilibrante. A Aveia hidrata e o Chá Verde combate os radicais livres, ideal para a saúde geral da pele do seu pet.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete promove o equilíbrio da pele, limpando suavemente enquanto protege contra o envelhecimento precoce e mantém a hidratação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação antioxidante e protetora</li>",
+      "  <li>Hidrata e equilibra a pele</li>",
+      "  <li>Mantém a pele do pet saudável</li>",
+      "</ul>"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Café Torrado",
+    "thumbnail": "assets/images/products/catalogue/vela_cafe_torrado.png",
+    "images": [
+      "assets/images/products/details/vela_cafe_torrado_01.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
+    "category": "vela",
+    "price": 40.00,
+    "discount": false,
+    "discountPercent": null,
+    "inStock": true,
+    "shortDescription": "Cuidado antioxidante e equilibrante. A Aveia hidrata e o Chá Verde combate os radicais livres, ideal para a saúde geral da pele do seu pet.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete promove o equilíbrio da pele, limpando suavemente enquanto protege contra o envelhecimento precoce e mantém a hidratação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação antioxidante e protetora</li>",
+      "  <li>Hidrata e equilibra a pele</li>",
+      "  <li>Mantém a pele do pet saudável</li>",
+      "</ul>"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Floral",
+    "thumbnail": "assets/images/products/catalogue/vela_floral.png",
+    "images": [
+      "assets/images/products/details/vela_floral_01.png",
+      "assets/images/products/teste2.png",
+      "assets/images/products/teste.png",
+      "assets/images/products/teste2.png"
+    ],
+    "category": "vela",
     "price": 40.00,
     "discount": false,
     "discountPercent": null,

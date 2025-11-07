@@ -1,16 +1,3 @@
-// Objeto de mapeamento para os nomes de exibição das categorias
-const CATEGORY_DISPLAY_NAMES = {
-    "argila": "Argila Pura",
-    "dermocare": "Dermocare",
-    "puraessencia": "Pura Essência",
-    "natureza": "Essência da Natureza",
-    "oleos": "Óleos Puros",
-    "lume": "Lume",
-    "alento": "Alento",
-    "duocare": "Duocare",
-    "petcare": "Pet Care"
-};
-
 let cart = [];
 const WHATSAPP_NUMBER = '557398098269';
 

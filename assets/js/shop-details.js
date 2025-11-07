@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
     
-    // FUNÇÃO ATUALIZADA para ler a quantidade
+    // Função para ler a quantidade
     const initPageButtons = (currentProduct) => {
         // Ativa o botão principal de adicionar ao carrinho, se o produto estiver em stock
         if (currentProduct.inStock) {
@@ -128,10 +128,10 @@ document.addEventListener('DOMContentLoaded', () => {
             bigSlider.innerHTML = '';
             thumbSlider.innerHTML = '';
             product.images.forEach(imageUrl => {
-                bigSlider.innerHTML += `<div class="product-img"><a href="${imageUrl}" class="img-popup"><img src="${imageUrl}" alt="${product.name}"></a></div>`;
+                bigSlider.innerHTML += `<div class="product-img"><img src="${imageUrl}" alt="${product.name}"></a></div>`;
                 thumbSlider.innerHTML += `<div class="product-img"><img src="${imageUrl}" alt="${product.name} thumbnail"></div>`;
             });
-            jQuery(bigSlider).slick({ slidesToShow: 1, slidesToScroll: 1, arrows: false, fade: true, asNavFor: '.product-thumb-slider' });
+            jQuery(bigSlider).slick({ slidesToShow: 1, slidesToScroll: 1, arrows: false, fade: true });
             jQuery(thumbSlider).slick({ slidesToShow: 4, slidesToScroll: 1, asNavFor: '.product-big-slider', dots: false, arrows: false, focusOnSelect: true });
         }
 
