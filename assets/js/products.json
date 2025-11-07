@@ -514,10 +514,11 @@
   },
   {
     "id": 16,
-    "name": "Ameixa Negra + Extrato de Ameixa Negra",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "bestSeller": true,
+    "name": "Maracujá + Flor de Laranjeira",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_maracuja_flor_laranjeira.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_maracuja_flor_laranjeira_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -527,7 +528,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "Uma fragrância intensa e sofisticada que perfuma e hidrata a pele. O extrato de Ameixa Negra deixa um aroma marcante e duradouro.",
+    "shortDescription": "Uma fragrância intensa e sofisticada que perfuma e hidrata a pele. O extrato de Maracujá deixa um aroma marcante e duradouro.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos Naturais",
@@ -548,10 +549,11 @@
   },
   {
     "id": 17,
-    "name": "Chá branco + Extrato de Chá Branco",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "bestSeller": true,
+    "name": "Frutas Vermelhas + Óleo de Rosa Mosqueta",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_frutas_vermelhas_oleo_rosa_mosqueta.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_frutas_vermelhas_oleo_rosa_mosqueta_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -561,7 +563,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "Uma fragrância leve e revigorante que acalma e renova as energias. O extrato de Chá Branco possui propriedades antioxidantes e calmantes.",
+    "shortDescription": "Uma fragrância leve e revigorante que acalma e renova as energias. O extrato de Frutas Vermelhas possui propriedades antioxidantes e calmantes.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos Naturais",
@@ -582,10 +584,10 @@
   },
   {
     "id": 18,
-    "name": "Erva Doce + Extrato de Erva-Doce",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "name": "Capim Limão + Alecrim",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_capim_limao_alecrim.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_capim_limao_alecrim_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -595,7 +597,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "A fragrância clássica e reconfortante da Erva Doce. Com propriedades calmantes e antissépticas, limpa e protege a pele.",
+    "shortDescription": "A fragrância clássica e reconfortante do Capim Limão. Com propriedades calmantes e antissépticas, limpa e protege a pele.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos Naturais",
@@ -616,10 +618,10 @@
   },
   {
     "id": 19,
-    "name": "Morango + Extrato de Morango",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "name": "Pêssego + Vitamina E",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_pessego_vitamina_e.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_pessego_vitamina_e_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -629,7 +631,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "Uma fragrância doce e vibrante que alegra o dia. O extrato de Morango é rico em vitamina C, com ação antioxidante e hidratante.",
+    "shortDescription": "Uma fragrância doce e vibrante que alegra o dia. O extrato de Pêssego é rico em vitamina E, com ação antioxidante e hidratante.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos Naturais",
@@ -650,10 +652,10 @@
   },
   {
     "id": 20,
-    "name": "Perfume de Bebê + Extrato de Aveia",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "name": "Erva Doce + Hortelã",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_erva_doce_hortela.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_erva_doce_hortela_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -663,7 +665,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "Aconchego e cuidado para a sua pele. A fragrância suave de bebê combinada com o extrato de Aveia, que hidrata e acalma a pele.",
+    "shortDescription": "A fragrância clássica e reconfortante da Erva Doce. Com propriedades calmantes e antissépticas, limpa e protege a pele.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos Naturais",
@@ -684,10 +686,10 @@
   },
   {
     "id": 21,
-    "name": "Lavanda + Extrato de Lavanda",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "name": "Chã branco + Extrato de Bambu",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_cha_branco_extrato_bambu.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_cha_branco_extrato_bambu_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -697,7 +699,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "A fragrância relaxante da Lavanda para um banho tranquilo. O extrato de Lavanda acalma a pele e a mente, aliviando o estresse do dia a dia.",
+    "shortDescription": "A fragrância relaxante do Chã branco para um banho tranquilo. O extrato de Chã branco acalma a pele e a mente, aliviando o estresse do dia a dia.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos Naturais",
@@ -707,7 +709,7 @@
     },
     "informations": [
       "<h4>Descrição</h4>",
-      "<p>Transforme seu banho em um momento de spa com este sabonete de Lavanda, que limpa suavemente e promove uma sensação de bem-estar.</p>",
+      "<p>Transforme seu banho em um momento de spa com este sabonete de Chã branco, que limpa suavemente e promove uma sensação de bem-estar.</p>",
       "<h4>Benefícios</h4>",
       "<ul class='list'>",
       "  <li>Fragrância floral e relaxante</li>",
@@ -718,10 +720,10 @@
   },
   {
     "id": 22,
-    "name": "Cereja e Avelã + Extrato de Cereja + Óleo de Avelã",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "name": "Cereja e Avelã + Óleo de Amêndoa Doce",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_cereja_avela_oleo_amendoa_doce.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_cereja_avela_oleo_amendoa_doce_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -731,7 +733,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "Uma combinação cremosa e envolvente. A fragrância adocicada da Cereja com o toque nutritivo do Óleo de Avelã para uma pele macia e perfumada.",
+    "shortDescription": "Uma combinação cremosa e envolvente. A fragrância adocicada da Cereja com o toque nutritivo do Óleo de Amêndoa Doce para uma pele macia e perfumada.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos e Óleos",
@@ -752,10 +754,10 @@
   },
   {
     "id": 23,
-    "name": "Rosa Mosqueta + Óleo de Rosa Mosqueta + Extrato de Rosa",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "name": "Lavanda",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_lavanda.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_lavanda_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -765,7 +767,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "Cuidado regenerador para a sua pele. O Óleo de Rosa Mosqueta é famoso por sua capacidade de atenuar cicatrizes, estrias e sinais de envelhecimento.",
+    "shortDescription": "Cuidado regenerador para a sua pele. O Óleo de Lavanda é famoso por sua capacidade de atenuar cicatrizes, estrias e sinais de envelhecimento.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos e Óleos",
@@ -786,10 +788,10 @@
   },
   {
     "id": 24,
-    "name": "Maracujá + Extrato de Maracujá",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "name": "Vanilla + Chá Branco",
+    "thumbnail": "assets/images/products/catalogue/puraessencia_vanilla_cha_branco.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/puraessencia_vanilla_cha_branco_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
@@ -799,7 +801,7 @@
     "discount": false,
     "discountPercent": null,
     "inStock": true,
-    "shortDescription": "Uma explosão de frescor tropical. A fragrância do Maracujá é calmante e refrescante, ideal para um banho revigorante.",
+    "shortDescription": "Uma explosão de frescor tropical. A fragrância do Vanilla é calmante e refrescante, ideal para um banho revigorante.",
     "additionalInfo": {
       "Quantidade": "100g",
       "Composição": "Base Glicerinada, Extratos Naturais",
@@ -815,210 +817,6 @@
       "  <li>Fragrância frutal e refrescante</li>",
       "  <li>Propriedades calmantes</li>",
       "  <li>Pele limpa e perfumada</li>",
-      "</ul>"
-    ]
-  },
-  {
-    "id": 25,
-    "name": "Limão + Extrato + Óleo Essencial de Limão",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
-    "images": [
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png",
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png"
-    ],
-    "category": "puraessencia",
-    "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true,
-    "shortDescription": "Energia e vitalidade para o seu banho. O aroma cítrico do limão é estimulante e ajuda a clarear a pele, enquanto o óleo essencial tonifica.",
-    "additionalInfo": {
-      "Quantidade": "100g",
-      "Composição": "Base Glicerinada, Extratos e Óleos Essenciais",
-      "Modo de Uso": "Aplicar na pele limpa",
-      "Validade": "12 meses",
-      "Origem": "Brasil"
-    },
-    "informations": [
-      "<h4>Descrição</h4>",
-      "<p>Um sabonete revigorante que limpa profundamente, auxiliando no controle da oleosidade e deixando uma sensação de frescor duradouro.</p>",
-      "<h4>Benefícios</h4>",
-      "<ul class='list'>",
-      "  <li>Fragrância cítrica e energizante</li>",
-      "  <li>Ação adstringente e tonificante</li>",
-      "  <li>Auxilia no clareamento de manchas</li>",
-      "</ul>"
-    ]
-  },
-  {
-    "id": 26,
-    "name": "Romã + Extrato de Romã",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
-    "images": [
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png",
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png"
-    ],
-    "category": "puraessencia",
-    "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true,
-    "shortDescription": "Fragrância exótica e antioxidante. O extrato de Romã é rico em antioxidantes que combatem o envelhecimento precoce da pele.",
-    "additionalInfo": {
-      "Quantidade": "100g",
-      "Composição": "Base Glicerinada, Extratos Naturais",
-      "Modo de Uso": "Aplicar na pele limpa",
-      "Validade": "12 meses",
-      "Origem": "Brasil"
-    },
-    "informations": [
-      "<h4>Descrição</h4>",
-      "<p>Este sabonete limpa e protege a pele dos danos diários, deixando-a macia, perfumada e com um toque de sofisticação.</p>",
-      "<h4>Benefícios</h4>",
-      "<ul class='list'>",
-      "  <li>Fragrância frutal e exótica</li>",
-      "  <li>Poderosa ação antioxidante</li>",
-      "  <li>Pele protegida e rejuvenescida</li>",
-      "</ul>"
-    ]
-  },
-  {
-    "id": 27,
-    "name": "Melancia + Extrato de Melancia",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
-    "images": [
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png",
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png"
-    ],
-    "category": "puraessencia",
-    "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true,
-    "shortDescription": "Hidratação e frescor para o seu verão. O extrato de Melancia é rico em vitaminas e minerais, promovendo uma hidratação refrescante.",
-    "additionalInfo": {
-      "Quantidade": "100g",
-      "Composição": "Base Glicerinada, Extratos Naturais",
-      "Modo de Uso": "Aplicar na pele limpa",
-      "Validade": "12 meses",
-      "Origem": "Brasil"
-    },
-    "informations": [
-      "<h4>Descrição</h4>",
-      "<p>Um sabonete com o cheirinho do verão, que limpa suavemente e ajuda a manter a pele hidratada e revitalizada nos dias quentes.</p>",
-      "<h4>Benefícios</h4>",
-      "<ul class='list'>",
-      "  <li>Fragrância doce e refrescante</li>",
-      "  <li>Ação hidratante e remineralizante</li>",
-      "  <li>Pele macia e com toque fresco</li>",
-      "</ul>"
-    ]
-  },
-  {
-    "id": 28,
-    "name": "Pitaya + Extrato de Pitaya",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
-    "images": [
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png",
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png"
-    ],
-    "category": "puraessencia",
-    "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true,
-    "shortDescription": "Fragrância vibrante e exótica. O extrato de Pitaya é rico em antioxidantes, ajudando a proteger a pele contra os radicais livres.",
-    "additionalInfo": {
-      "Quantidade": "100g",
-      "Composição": "Base Glicerinada, Extratos Naturais",
-      "Modo de Uso": "Aplicar na pele limpa",
-      "Validade": "12 meses",
-      "Origem": "Brasil"
-    },
-    "informations": [
-      "<h4>Descrição</h4>",
-      "<p>Um banho energizante com uma fragrância única. Limpa, protege e deixa a pele com um perfume marcante e sofisticado.</p>",
-      "<h4>Benefícios</h4>",
-      "<ul class='list'>",
-      "  <li>Fragrância exótica e marcante</li>",
-      "  <li>Alta concentração de antioxidantes</li>",
-      "  <li>Pele protegida e perfumada</li>",
-      "</ul>"
-    ]
-  },
-  {
-    "id": 29,
-    "name": "Uva + Extrato de Uva",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
-    "images": [
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png",
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png"
-    ],
-    "category": "puraessencia",
-    "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true,
-    "shortDescription": "Um banho rejuvenescedor com o poder da uva. O extrato de Uva é rico em polifenóis, que combatem o envelhecimento da pele.",
-    "additionalInfo": {
-      "Quantidade": "100g",
-      "Composição": "Base Glicerinada, Extratos Naturais",
-      "Modo de Uso": "Aplicar na pele limpa",
-      "Validade": "12 meses",
-      "Origem": "Brasil"
-    },
-    "informations": [
-      "<h4>Descrição</h4>",
-      "<p>Este sabonete limpa e cuida da sua pele, ajudando a manter sua elasticidade e juventude, com uma fragrância doce e frutal.</p>",
-      "<h4>Benefícios</h4>",
-      "<ul class='list'>",
-      "  <li>Fragrância doce e envolvente</li>",
-      "  <li>Ação antioxidante e anti-idade</li>",
-      "  <li>Pele macia e rejuvenescida</li>",
-      "</ul>"
-    ]
-  },
-  {
-    "id": 30,
-    "name": "Maçã Verde + Extrato de Maçã Verde",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
-    "images": [
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png",
-      "assets/images/products/details/placeholder_01.png",
-      "assets/images/products/details/placeholder_02.png"
-    ],
-    "category": "puraessencia",
-    "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
-    "inStock": true,
-    "shortDescription": "Frescor e vitalidade para o seu banho. O extrato de Maçã Verde tem ação adstringente, ajudando a controlar a oleosidade e a tonificar a pele.",
-    "additionalInfo": {
-      "Quantidade": "100g",
-      "Composição": "Base Glicerinada, Extratos Naturais",
-      "Modo de Uso": "Aplicar na pele limpa",
-      "Validade": "12 meses",
-      "Origem": "Brasil"
-    },
-    "informations": [
-      "<h4>Descrição</h4>",
-      "<p>Um sabonete refrescante que limpa a pele, deixando uma sensação de pureza e um aroma cítrico e revigorante.</p>",
-      "<h4>Benefícios</h4>",
-      "<ul class='list'>",
-      "  <li>Fragrância cítrica e refrescante</li>",
-      "  <li>Ação adstringente e tonificante</li>",
-      "  <li>Ideal para peles mistas a oleosas</li>",
       "</ul>"
     ]
   },
@@ -2659,7 +2457,6 @@
   },
   {
     "id": 80,
-    "bestSeller": true,
     "name": "Café Torrado",
     "thumbnail": "assets/images/products/catalogue/vela_cafe_torrado.png",
     "images": [
@@ -2694,7 +2491,6 @@
   },
   {
     "id": 81,
-    "bestSeller": true,
     "name": "Floral",
     "thumbnail": "assets/images/products/catalogue/vela_floral.png",
     "images": [

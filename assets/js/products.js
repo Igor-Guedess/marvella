@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const CATEGORY_DISPLAY_NAMES = {
-    "argila": "Argila Pura",
     "dermocare": "Dermocare",
     "puraessencia": "Pura Essência",
     "natureza": "Essência da Natureza",
