@@ -1,5 +1,5 @@
 let cart = [];
-const WHATSAPP_NUMBER = '557398098269';
+const WHATSAPP_NUMBER = '5521991110922';
 
 // --- FUNÇÕES GLOBAIS DO CARRINHO ---
 

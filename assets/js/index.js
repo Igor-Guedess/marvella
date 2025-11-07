@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
             filteredProducts = inStockProducts.filter(p => p.bestSeller === true).slice(0, 8);
         } else if (filterType === 'new') {
             filteredProducts = inStockProducts.slice(-8);
-        } else if (filterType === 'sets') { // <-- NOVA LÓGICA AQUI
+        } else if (filterType === 'sets') {
             filteredProducts = inStockProducts.filter(p => p.category === 'dermocare');
         }
 

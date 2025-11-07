@@ -657,8 +657,8 @@
         });
         simplyCountdown('.simply-countdown-two', {
             year: 2025,
-            month: 12,
-            day: 31,
+            month: 11,
+            day: 28,
             words: { //words displayed into the countdown
                 days: { singular: 'dia', plural: 'dias' },
                 hours: { singular: 'hora', plural: 'horas' },

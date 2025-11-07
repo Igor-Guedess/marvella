@@ -2,7 +2,6 @@
   {
     "id": 1,
     "name": "Argila Branca",
-    "bestSeller": true,
     "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
       "assets/images/products/details/placeholder_01.png",
@@ -37,7 +36,6 @@
   {
     "id": 2,
     "name": "Argila Vermelha",
-    "bestSeller": true,
     "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
       "assets/images/products/details/placeholder_01.png",
@@ -47,8 +45,8 @@
     ],
     "category": "argila",
     "price": 40.00,
-    "discount": true,
-    "discountPercent": 10,
+    "discount": false,
+    "discountPercent": null,
     "inStock": true,
     "shortDescription": "A Argila Vermelha é ideal para peles sensíveis e maduras. Rica em óxido de ferro, ela ajuda a estimular a circulação sanguínea, promovendo um efeito tensor e revitalizante.",
     "additionalInfo": {
@@ -72,7 +70,6 @@
   {
     "id": 3,
     "name": "Argila Rosa",
-    "bestSeller": true,
     "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
       "assets/images/products/details/placeholder_01.png",
@@ -82,8 +79,8 @@
     ],
     "category": "argila",
     "price": 40.00,
-    "discount": true,
-    "discountPercent": 10,
+    "discount": false,
+    "discountPercent": null,
     "inStock": true,
     "shortDescription": "A suave Argila Rosa é a mistura da argila branca com a vermelha, perfeita para peles delicadas e sensíveis. Promove uma limpeza suave enquanto acalma e hidrata a pele.",
     "additionalInfo": {
@@ -107,7 +104,6 @@
   {
     "id": 4,
     "name": "Argila Roxa",
-    "bestSeller": true,
     "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
       "assets/images/products/details/placeholder_01.png",
@@ -117,8 +113,8 @@
     ],
     "category": "argila",
     "price": 40.00,
-    "discount": true,
-    "discountPercent": 10,
+    "discount": false,
+    "discountPercent": null,
     "inStock": true,
     "shortDescription": "Rica em magnésio, a Argila Roxa é conhecida por seu efeito rejuvenescedor. Auxilia na formação de colágeno, melhorando a firmeza e a elasticidade da pele.",
     "additionalInfo": {
@@ -142,7 +138,6 @@
   {
     "id": 5,
     "name": "Argila Amarela",
-    "bestSeller": true,
     "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
       "assets/images/products/details/placeholder_01.png",
@@ -152,8 +147,8 @@
     ],
     "category": "argila",
     "price": 40.00,
-    "discount": true,
-    "discountPercent": 10,
+    "discount": false,
+    "discountPercent": null,
     "inStock": true,
     "shortDescription": "A Argila Amarela, rica em silício, é um excelente rejuvenescedor. Ideal para peles secas e maduras, promove a elasticidade e combate os sinais de envelhecimento.",
     "additionalInfo": {
@@ -177,7 +172,6 @@
   {
     "id": 6,
     "name": "Argila Cinza",
-    "bestSeller": true,
     "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
       "assets/images/products/details/placeholder_01.png",
@@ -187,8 +181,8 @@
     ],
     "category": "argila",
     "price": 40.00,
-    "discount": true,
-    "discountPercent": 10,
+    "discount": false,
+    "discountPercent": null,
     "inStock": true,
     "shortDescription": "Ideal para peles oleosas e com acne, a Argila Cinza possui propriedades anti-inflamatórias e cicatrizantes, ajudando a controlar a oleosidade e a secar espinhas.",
     "additionalInfo": {
@@ -212,7 +206,6 @@
   {
     "id": 7,
     "name": "Argila Verde",
-    "bestSeller": true,
     "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
     "images": [
       "assets/images/products/details/placeholder_01.png",
@@ -246,19 +239,19 @@
   },
   {
     "id": 8,
-    "name": "Argila Rosa + Óleo de Rosa Mosqueta + Vitamina E",
     "bestSeller": true,
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "name": "Argila Rosa + Óleo de Rosa Mosqueta + Vitamina E",
+    "thumbnail": "assets/images/products/catalogue/argila_rosa_oleo_de_rosa_mosqueta_vitamina_e.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/argila_rosa_oleo_de_rosa_mosqueta_vitamina_e_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
+    "discount": true,
+    "discountPercent": 10,
     "inStock": true,
     "shortDescription": "Uma combinação poderosa para regeneração da pele. Ideal para atenuar cicatrizes, linhas de expressão e promover uma hidratação intensa.",
     "additionalInfo": {
@@ -281,18 +274,19 @@
   },
   {
     "id": 9,
+    "bestSeller": true,
     "name": "Argila Branca + Colágeno + Vitaminas E",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "thumbnail": "assets/images/products/catalogue/argila_branca_colageno_vitamina_e.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/argila_branca_colageno_vitamina_e_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
+    "discount": true,
+    "discountPercent": 10,
     "inStock": true,
     "shortDescription": "Tratamento firmador e rejuvenescedor. A Argila Branca limpa suavemente enquanto o Colágeno e a Vitamina E trabalham para melhorar a firmeza e elasticidade da pele.",
     "additionalInfo": {
@@ -315,23 +309,24 @@
   },
   {
     "id": 10,
-    "name": "Argila Amarela + Colágeno + Vitaminas A e E",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "bestSeller": true,
+    "name": "Argila Amarela + Colágeno + Vitamina E",
+    "thumbnail": "assets/images/products/catalogue/argila_amarela_colageno_vitamina_e.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/argila_amarela_colageno_vitamina_e_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
+    "discount": true,
+    "discountPercent": 10,
     "inStock": true,
     "shortDescription": "Uma fórmula rica para nutrição e revitalização da pele. A Argila Amarela tonifica enquanto o Colágeno e as Vitaminas A e E combatem os radicais livres e o envelhecimento.",
     "additionalInfo": {
       "Quantidade": "100g",
-      "Composição": "Argila, Colágeno, Vitaminas A e E",
+      "Composição": "Argila, Colágeno, Vitamina E",
       "Modo de Uso": "Aplicar na pele limpa",
       "Validade": "12 meses",
       "Origem": "Brasil"
@@ -350,17 +345,17 @@
   {
     "id": 11,
     "name": "Argila Roxa + Colágeno + Vitamina E",
-    "thumbnail": "assets/images/products/catalogue/placeholder_01.png",
+    "thumbnail": "assets/images/products/catalogue/argila_roxa_colageno_vitamina_e.png",
     "images": [
-      "assets/images/products/details/placeholder_01.png",
+      "assets/images/products/details/argila_roxa_colageno_vitamina_e_01.png",
       "assets/images/products/details/placeholder_02.png",
       "assets/images/products/details/placeholder_01.png",
       "assets/images/products/details/placeholder_02.png"
     ],
     "category": "dermocare",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
+    "discount": true,
+    "discountPercent": 10,
     "inStock": true,
     "shortDescription": "Tratamento de efeito lifting natural. A Argila Roxa, rica em magnésio, une-se ao Colágeno para tonificar a pele, suavizar rugas e linhas de expressão.",
     "additionalInfo": {
@@ -393,8 +388,8 @@
     ],
     "category": "dermocare",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
+    "discount": true,
+    "discountPercent": 10,
     "inStock": true,
     "shortDescription": "Fórmula calmante e clareadora. A Dolomita potencializa a ação da Argila Branca, enquanto o Óleo de Semente de Uva hidrata e previne o envelhecimento precoce.",
     "additionalInfo": {
@@ -427,8 +422,8 @@
     ],
     "category": "dermocare",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
+    "discount": true,
+    "discountPercent": 10,
     "inStock": true,
     "shortDescription": "Máscara revitalizante e anti-inflamatória. O Açafrão é conhecido por suas propriedades terapêuticas, ajudando a uniformizar o tom da pele e a combater inflamações.",
     "additionalInfo": {
@@ -461,8 +456,8 @@
     ],
     "category": "dermocare",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
+    "discount": true,
+    "discountPercent": 10,
     "inStock": true,
     "shortDescription": "Máscara detox de alta performance. A Argila Preta e o Carvão Ativo removem impurezas profundas e toxinas, enquanto o Óleo de Jojoba hidrata e controla a oleosidade.",
     "additionalInfo": {
@@ -495,8 +490,8 @@
     ],
     "category": "dermocare",
     "price": 40.00,
-    "discount": false,
-    "discountPercent": null,
+    "discount": true,
+    "discountPercent": 10,
     "inStock": true,
     "shortDescription": "Segredo oriental para uma pele de porcelana. O pó de arroz é famoso por sua ação clareadora e matificante, suavizando manchas e controlando a oleosidade.",
     "additionalInfo": {
@@ -1471,6 +1466,7 @@
   },
   {
     "id": 44,
+    "bestSeller": true,
     "name": "Óleo de Rosa Mosqueta",
     "thumbnail": "assets/images/products/catalogue/oleo_rosa_mosqueta.png",
     "images": [
@@ -1505,6 +1501,7 @@
   },
   {
     "id": 45,
+    "bestSeller": true,
     "name": "Óleo de Semente de Uva",
     "thumbnail": "assets/images/products/catalogue/oleo_semente_de_uva.png",
     "images": [
@@ -2627,6 +2624,7 @@
   },
   {
     "id": 79,
+    "bestSeller": true,
     "name": "Lavanda com Baunilha",
     "thumbnail": "assets/images/products/catalogue/vela_lavanda_com_baunilha.png",
     "images": [
@@ -2661,6 +2659,7 @@
   },
   {
     "id": 80,
+    "bestSeller": true,
     "name": "Café Torrado",
     "thumbnail": "assets/images/products/catalogue/vela_cafe_torrado.png",
     "images": [
@@ -2695,6 +2694,7 @@
   },
   {
     "id": 81,
+    "bestSeller": true,
     "name": "Floral",
     "thumbnail": "assets/images/products/catalogue/vela_floral.png",
     "images": [
