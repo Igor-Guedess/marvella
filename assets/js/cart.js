@@ -1,5 +1,5 @@
 let cart = [];
-const WHATSAPP_NUMBER = '557381817294';
+const WHATSAPP_NUMBER = '5521991110922';
 
 const _DB_PROMO_CODES = {
     '#CLIENT12': 12
