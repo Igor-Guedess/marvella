@@ -1,27 +1,63 @@
 let cart = [];
-const WHATSAPP_NUMBER = '5521991110922';
+const WHATSAPP_NUMBER = '557381817294';
 
-// --- FUNÇÕES GLOBAIS DO CARRINHO ---
+const _DB_PROMO_CODES = {
+    '#CLIENT12': 12
+};
 
-function saveCart() {
-    localStorage.setItem('marvellaCart', JSON.stringify(cart));
-}
+const CartService = {
+    async validateCoupon(code) {
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                const cleanCode = code.trim().toUpperCase();
+                if (_DB_PROMO_CODES.hasOwnProperty(cleanCode)) {
+                    resolve({
+                        valid: true,
+                        discountPercent: _DB_PROMO_CODES[cleanCode],
+                        message: 'Cupom aplicado!'
+                    });
+                } else {
+                    resolve({
+                        valid: false,
+                        discountPercent: 0,
+                        message: 'Cupom inválido.'
+                    });
+                }
+            }, 600);
+        });
+    },
+
+    calculateTotals(cartItems, discountPercent) {
+        let subTotal = 0;
+        cartItems.forEach(item => {
+            const product = item.product;
+            const price = product.discount ? product.price * (1 - (product.discountPercent / 100)) : product.price;
+            subTotal += price * item.quantity;
+        });
+
+        const discountValue = subTotal * (discountPercent / 100);
+        const total = subTotal - discountValue;
+
+        return { subTotal, discountPercent, discountValue, total };
+    }
+};
+
+let currentAppState = {
+    discountPercent: 0,
+    couponCode: ''
+};
+
+function saveCart() { localStorage.setItem('marvellaCart', JSON.stringify(cart)); }
 
 function loadCart() {
     const cartData = localStorage.getItem('marvellaCart');
     cart = cartData ? JSON.parse(cartData) : [];
 }
 
-// FUNÇÃO ATUALIZADA para aceitar quantidade
 function addToCart(product, allProducts, quantity = 1) {
     const productInCart = cart.find(item => item.product.id === product.id);
-    if (productInCart) {
-        // Se o produto já existe, soma a nova quantidade
-        productInCart.quantity += quantity;
-    } else {
-        // Se é um produto novo, adiciona com a quantidade especificada
-        cart.push({ product: product, quantity: quantity });
-    }
+    if (productInCart) productInCart.quantity += quantity;
+    else cart.push({ product: product, quantity: quantity });
     saveCart();
     renderCart(allProducts);
 }
@@ -46,25 +82,77 @@ function removeFromCart(productId, allProducts) {
     renderCart(allProducts);
 }
 
+async function applyCoupon(allProducts) {
+    const input = document.getElementById('coupon-input');
+    const message = document.getElementById('coupon-message');
+    const btn = document.getElementById('apply-coupon-btn');
+    
+    if (!input || !message) return;
+
+    const code = input.value;
+
+    if (!code) {
+        currentAppState.discountPercent = 0;
+        currentAppState.couponCode = '';
+        message.textContent = "";
+        renderCart(allProducts);
+        return;
+    }
+
+    btn.style.opacity = '0.6';
+    btn.style.cursor = 'wait';
+    btn.disabled = true;
+    input.disabled = true;
+
+    const result = await CartService.validateCoupon(code);
+
+    btn.style.opacity = '1';
+    btn.style.cursor = 'pointer';
+    btn.disabled = false;
+    input.disabled = false;
+
+    if (result.valid) {
+        currentAppState.discountPercent = result.discountPercent;
+        currentAppState.couponCode = code;
+        message.textContent = result.message;
+        message.style.color = 'green';
+    } else {
+        currentAppState.discountPercent = 0;
+        currentAppState.couponCode = '';
+        message.textContent = result.message;
+        message.style.color = 'red';
+    }
+
+    renderCart(allProducts);
+}
+
 function generateWhatsAppMessage() {
     if (cart.length === 0) {
         alert('Seu carrinho está vazio!');
         return;
     }
     const formatter = new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const totals = CartService.calculateTotals(cart, currentAppState.discountPercent);
+
     let message = 'Olá! Gostaria de fazer o seguinte pedido:\n\n';
-    let totalPrice = 0;
+
     cart.forEach(item => {
         const product = item.product;
         const price = product.discount ? product.price * (1 - (product.discountPercent / 100)) : product.price;
         const itemPrice = price * item.quantity;
-        totalPrice += itemPrice;
         message += `${item.quantity}x ${product.name} - R$${formatter.format(itemPrice)}\n`;
     });
-    message += `\nTotal do Pedido: R$${formatter.format(totalPrice)}`;
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
-    window.open(whatsappUrl, '_blank');
+
+    if (totals.discountPercent > 0) {
+        message += `\nSubtotal: R$${formatter.format(totals.subTotal)}`;
+        message += `\nCupom: ${currentAppState.couponCode}`;
+        message += `\nDesconto: -R$${formatter.format(totals.discountValue)}`;
+        message += `\n*Total Final: R$${formatter.format(totals.total)}*`;
+    } else {
+        message += `\nTotal do Pedido: R$${formatter.format(totals.total)}`;
+    }
+
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
 }
 
 function renderCart(allProducts) {
@@ -72,26 +160,29 @@ function renderCart(allProducts) {
     const cartTotalPrice = document.getElementById('cart-total-price');
     const cartCountDisplay = document.querySelector('.pro-count');
     const checkoutButton = document.getElementById('checkout-button');
+    const couponInput = document.getElementById('coupon-input');
+    
     if (!cartItemsContainer) return;
 
     let cartHtml = '';
     let totalItems = 0;
-    let totalPrice = 0;
     const formatter = new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const totals = CartService.calculateTotals(cart, currentAppState.discountPercent);
 
     if (cart.length === 0) {
-        cartHtml = `<li class="sidebar-cart-item text-center">Nenhum produto adicionado ao carrinho.</li>`;
-        if (checkoutButton) {
-            checkoutButton.classList.add('disabled');
-            checkoutButton.removeEventListener('click', generateWhatsAppMessage);
-        }
+        cartHtml = `<li class="sidebar-cart-item text-center">Nenhum produto adicionado.</li>`;
+        if (checkoutButton) checkoutButton.classList.add('disabled');
+        currentAppState.discountPercent = 0;
+        if(couponInput) couponInput.value = '';
+        const msg = document.getElementById('coupon-message');
+        if(msg) msg.textContent = '';
     } else {
         cart.forEach(item => {
             const product = item.product;
             const price = product.discount ? product.price * (1 - (product.discountPercent / 100)) : product.price;
             const itemPrice = price * item.quantity;
             totalItems += item.quantity;
-            totalPrice += itemPrice;
+            
             cartHtml += `
                 <li class="sidebar-cart-item">
                     <a href="#" class="remove-cart" data-product-id="${product.id}"><i class="far fa-trash-alt"></i></a>
@@ -107,14 +198,22 @@ function renderCart(allProducts) {
                     <span class="item-total"><span class="currency">R$</span>${formatter.format(itemPrice)}</span>
                 </li>`;
         });
-        if (checkoutButton) {
-            checkoutButton.classList.remove('disabled');
-            checkoutButton.addEventListener('click', generateWhatsAppMessage);
-        }
+        if (checkoutButton) checkoutButton.classList.remove('disabled');
     }
 
     if(cartItemsContainer) cartItemsContainer.innerHTML = cartHtml;
-    if (cartTotalPrice) cartTotalPrice.innerHTML = `<span class="currency">R$</span>${formatter.format(totalPrice)}`;
+    
+    if (cartTotalPrice) {
+        if (totals.discountPercent > 0 && totals.total > 0) {
+            cartTotalPrice.innerHTML = `
+                <span class="currency" style="color: #28a745;">R$</span><span style="color: #28a745; font-weight:bold;">${formatter.format(totals.total)}</span>
+                <span style="text-decoration: line-through; color: #999; font-size: 0.9em; margin-left: 8px;">R$${formatter.format(totals.subTotal)}</span>
+            `;
+        } else {
+            cartTotalPrice.innerHTML = `<span class="currency">R$</span>${formatter.format(totals.total)}`;
+        }
+    }
+
     if (cartCountDisplay) cartCountDisplay.textContent = totalItems.toString().padStart(2, '0');
     
     document.querySelectorAll('.remove-cart').forEach(btn => btn.addEventListener('click', e => { e.preventDefault(); removeFromCart(parseInt(e.currentTarget.dataset.productId), allProducts); }));
@@ -127,6 +226,23 @@ function initCartSidebar(allProducts) {
     const cartClose = document.querySelector('.sidemenu-cart-close');
     const overlay = document.querySelector('.offcanvas__overlay');
     const headerCartButton = document.querySelector('.header-navigation .cart-button');
+    const checkoutButton = document.getElementById('checkout-button');
+
+    const btnCoupon = document.getElementById('apply-coupon-btn');
+    if(btnCoupon) {
+        const newBtn = btnCoupon.cloneNode(true);
+        btnCoupon.parentNode.replaceChild(newBtn, btnCoupon);
+        newBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            applyCoupon(allProducts);
+        });
+    }
+
+    if (checkoutButton) {
+        const newBtnCheckout = checkoutButton.cloneNode(true);
+        checkoutButton.parentNode.replaceChild(newBtnCheckout, checkoutButton);
+        newBtnCheckout.addEventListener('click', generateWhatsAppMessage);
+    }
 
     const openCart = (e) => {
         if (e) e.preventDefault();
@@ -145,16 +261,14 @@ function initCartSidebar(allProducts) {
     if (overlay) overlay.addEventListener('click', closeCart);
 }
 
-// --- INICIALIZAÇÃO GLOBAL ---
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch('assets/js/products.json');
         const allProducts = await response.json();
-        
         loadCart();
         renderCart(allProducts);
         initCartSidebar(allProducts);
     } catch (error) {
-        console.error("Erro ao inicializar o carrinho global:", error);
+        console.error("Erro ao inicializar:", error);
     }
 });
