@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     "vela": "Velas Artesanais"
     };
 
+    const VISIBLE_CATEGORIES = ['dermocare', 'puraessencia', 'oleos', 'vela'];
+
     // Variáveis de paginação
     const PRODUCTS_PER_PAGE = 12;
     let currentPage = 1;
@@ -40,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let categoriesHtml = '';
         for (const category in categoryCounts) {
+            if (!VISIBLE_CATEGORIES.includes(category)) continue;
             const count = categoryCounts[category];
             const categoryName = CATEGORY_DISPLAY_NAMES[category] || category;
             categoriesHtml += `

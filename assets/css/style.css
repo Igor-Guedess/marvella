@@ -42,7 +42,7 @@ Version: 1.0
    05 Contact css
 -------------------------------------------------------    */
 /* Color */
-.single-information-item .content p:hover a, .single-information-item .content h4, .footer-dark .footer-recent-post-widget .recent-post-item .content h4:hover, .footer-dark .about-company-widget .widget-content .social-link li a:hover, .copyright-area .copyright-text p span, .footer-recent-post-widget .recent-post-item .content h4:hover, .about-company-widget .widget-content .social-link li a:hover, .footer-widget .widget-content ul.widget-menu li a:hover, .section-image-box.style-one .experience-box .text .year, .week-deals-box h5, .week-deals-box .sub-heading i, .week-deals-box .sub-heading, .offer-deal-wrapper .deal-content h2 span, .newsletter-wrapper .newsletter-content-box h3 span, .sidebar-category-widget .recent-post-list .post-thumbnail-content .post-title-date h6:hover, .sidebar-category-widget .widget-nav li a:hover, .pesco-reviews-item .reply, .post-navigation .post-nav-item .content h6:hover, .post-navigation .post-nav-item .content .post-link, .blog-details-content .blog-post-item .entry-footer span, .blog-details-content .blog-post-item .post-content blockquote span, .blog-details-content .blog-post-item .post-content ul li i, .blog-post-item.style-four .post-content h3.title:hover, .blog-post-item.style-two .post-content h3.title:hover, .blog-post-item.style-one .post-content h3.title:hover, .post-meta span:hover a, .order-summary-wrapper .product-item .product-name span, .cart-wrapper .product-thumb-item .product-info h4.title:hover, .shop-details-wrapper .product-info span.sale, .shop-filter .filter-grid-list a:hover, .accordion-item.style-one .accordion-title[aria-expanded=true]:after, .product-item.style-three .product-info h4:hover, .product-item.style-two .product-info h4.title:hover, .product-item.style-one .product-info h4.title:hover, .category-item.style-two .category-content a:hover, .banner-item.style-three .banner-content span, .page-banner-content .breadcrumb-link li a, .hero-content.style-two h1 span, .hero-content.style-two span.tag-line i, .hero-content.style-one span.sub-heading, .categori-dropdown-item ul li a:hover, .nav-right-item.style-one .deals i, .nav-right-item.style-one .deals, .header-top .top-right ul li:not(:last-child):after, .header-top .top-left .pesco-dropdown .dropdown a:hover, .header-top .top-left > ul > li:not(:last-child):after, .ratings.rating5 li i, .ratings.rating4 li i, .ratings.rating3 li i, .ratings.rating2 li i, .ratings.rating1 li i, .sidebar-cart-item .remove-cart:hover, .sidebar-cart-item a:hover, .sub-title {
+.single-information-item .content p:hover a, .single-information-item .content h4, .footer-dark .footer-recent-post-widget .recent-post-item .content h4:hover, .footer-dark .about-company-widget .widget-content .social-link li a:hover, .copyright-area .copyright-text p span, .footer-recent-post-widget .recent-post-item .content h4:hover, .about-company-widget .widget-content .social-link li a:hover, .footer-widget .widget-content ul.widget-menu li a:hover, .section-image-box.style-one .experience-box .text .year, .week-deals-box h5, .week-deals-box .sub-heading i, .week-deals-box .sub-heading, .offer-deal-wrapper .deal-content h2 span, .newsletter-wrapper .newsletter-content-box h3 span, .sidebar-category-widget .recent-post-list .post-thumbnail-content .post-title-date h6:hover, .sidebar-category-widget .widget-nav li a:hover, .pesco-reviews-item .reply, .post-navigation .post-nav-item .content h6:hover, .post-navigation .post-nav-item .content .post-link, .blog-details-content .blog-post-item .entry-footer span, .blog-details-content .blog-post-item .post-content blockquote span, .blog-details-content .blog-post-item .post-content ul li i, .blog-post-item.style-four .post-content h3.title:hover, .blog-post-item.style-two .post-content h3.title:hover, .blog-post-item.style-one .post-content h3.title:hover, .post-meta span:hover a, .order-summary-wrapper .product-item .product-name span, .cart-wrapper .product-thumb-item .product-info h4.title:hover, .shop-details-wrapper .product-info span.sale, .shop-filter .filter-grid-list a:hover, .accordion-item.style-one .accordion-title[aria-expanded=true]:after, .product-item.style-three .product-info h4:hover, .product-item.style-two .product-info h4.title:hover, .product-item.style-one .product-info h4.title:hover, .category-item.style-two .category-content a:hover, .banner-item.style-three .banner-content span, .page-banner-content .breadcrumb-link li a, .hero-content.style-two h1 span, .hero-content.style-two span.tag-line i, .hero-content.style-one span.sub-heading, .categori-dropdown-item ul li a:hover, .header-top .top-right ul li:not(:last-child):after, .header-top .top-left .pesco-dropdown .dropdown a:hover, .header-top .top-left > ul > li:not(:last-child):after, .ratings.rating5 li i, .ratings.rating4 li i, .ratings.rating3 li i, .ratings.rating2 li i, .ratings.rating1 li i, .sidebar-cart-item .remove-cart:hover, .sidebar-cart-item a:hover, .sub-title {
   color: var(--primary-color);
 }
 
@@ -57,13 +57,17 @@ Version: 1.0
 .testimonial-arrows.style-one .slick-arrow,
 .trending-product-arrows.style-one .slick-arrow,
 .category-arrows.style-one .slick-arrow,
-.feature-arrows.style-one .slick-arrow, .sidebar-banner-widget .banner-widget-content .content span.sale, .sidebar-category-widget .widget-nav li a, .blog-details-content .blog-post-item .post-content blockquote .quote i, .blog-details-content .blog-post-item .post-content ul li, .blog-post-item.style-three:hover .post-content .theme-btn.style-one, .form-check-input:checked[type=checkbox]:after, .payment-method-wrapper ul li p, .payment-method-wrapper ul li label, .order-summary-wrapper .list-item .total, .order-summary-wrapper .list-item .item-title, .order-summary-wrapper .list-item .subtotal, .order-summary-wrapper .list-item .shipping, .order-summary-wrapper .list-item .shipping-total, .order-summary-wrapper .list-item .product-total, .checkout-form label, .cart-wrapper .total-price, .cart-wrapper .price, .shop-sidebar-area .product-widget.price-filter-widget .widget-content .price-number input, .additional-information-wrapper .additional-info-box ul li, .shop-details-wrapper .product-info .special-features span, .shop-details-wrapper .product-info .product-meta a, .shop-details-wrapper .product-info .product-meta span, .shop-details-wrapper .product-info .product-cart-variation .icon-btn, .shop-details-wrapper .product-info .product-cart-variation .quantity-input .quantity, .shop-details-wrapper .product-info .product-price .price.new-price, .shop-filter .filter-product-category .nice-select, .shop-filter .show-text p, .team-item.style-one .member-img .hover-content ul.social-link li a, .pesco-tabs.style-three .nav-link, .pesco-tabs.style-two .nav-link, .pesco-tabs.style-one .nav-link, .product-item.style-four .product-price .price.new-price, .product-item.style-four .product-countdown .simply-countdown .simply-section span.simply-amount, .product-item.style-three .product-price .price.new-price, .product-item.style-three .product-thumbnail .hover-content a, .product-item.style-three .product-thumbnail .discount, .product-item.style-two .product-price .price.new-price, .product-item.style-one .product-price .price.new-price, .product-item.style-one .product-thumbnail .hover-content .icon-btn, .hotline-support .icon, .iconic-box-item.style-three .icon, .iconic-box-item.style-two .icon, .iconic-box-item.style-two .sn-number, .iconic-box-item.icon-left-box .icon, .category-item.style-two .category-content a, .category-item.style-one .category-content .category-btn, .banner-item.style-three .banner-content h4, .banner-item.style-two .banner-content span, .banner-item.style-one .banner-content span span.off, .page-banner-content .breadcrumb-link li, .hero-content .price-box .currency, .categori-dropdown-item ul li a, .main-categories-wrap .more_categories, .main-categories-wrap .categories-btn-active, .nav-right-item.style-one .pro-count, .nav-right-item.style-one i, .nav-right-item.style-one ul li:not(:last-child):after, .header-navigation .main-menu ul > li > a, .product-search-category form .nice-select, .header-top .top-right ul li, .header-top .top-left span, .header-top .top-left > ul > li, .pesco-pagination ul li a, .sidebar-cart-item a, .sub-heading i, .theme-btn.style-two, h1,
+.feature-arrows.style-one .slick-arrow, .sidebar-banner-widget .banner-widget-content .content span.sale, .sidebar-category-widget .widget-nav li a, .blog-details-content .blog-post-item .post-content blockquote .quote i, .blog-details-content .blog-post-item .post-content ul li, .blog-post-item.style-three:hover .post-content .theme-btn.style-one, .form-check-input:checked[type=checkbox]:after, .payment-method-wrapper ul li p, .payment-method-wrapper ul li label, .order-summary-wrapper .list-item .total, .order-summary-wrapper .list-item .item-title, .order-summary-wrapper .list-item .subtotal, .order-summary-wrapper .list-item .shipping, .order-summary-wrapper .list-item .shipping-total, .order-summary-wrapper .list-item .product-total, .checkout-form label, .cart-wrapper .total-price, .cart-wrapper .price, .shop-sidebar-area .product-widget.price-filter-widget .widget-content .price-number input, .additional-information-wrapper .additional-info-box ul li, .shop-details-wrapper .product-info .special-features span, .shop-details-wrapper .product-info .product-meta a, .shop-details-wrapper .product-info .product-meta span, .shop-details-wrapper .product-info .product-cart-variation .icon-btn, .shop-details-wrapper .product-info .product-cart-variation .quantity-input .quantity, .shop-details-wrapper .product-info .product-price .price.new-price, .shop-filter .filter-product-category .nice-select, .shop-filter .show-text p, .team-item.style-one .member-img .hover-content ul.social-link li a, .pesco-tabs.style-three .nav-link, .pesco-tabs.style-two .nav-link, .pesco-tabs.style-one .nav-link, .product-item.style-four .product-price .price.new-price, .product-item.style-four .product-countdown .simply-countdown .simply-section span.simply-amount, .product-item.style-three .product-price .price.new-price, .product-item.style-three .product-thumbnail .hover-content a, .product-item.style-three .product-thumbnail .discount, .product-item.style-two .product-price .price.new-price, .product-item.style-one .product-price .price.new-price, .product-item.style-one .product-thumbnail .hover-content .icon-btn, .hotline-support .icon, .iconic-box-item.style-three .icon, .iconic-box-item.style-two .icon, .iconic-box-item.style-two .sn-number, .iconic-box-item.icon-left-box .icon, .category-item.style-two .category-content a, .category-item.style-one .category-content .category-btn, .banner-item.style-three .banner-content h4, .banner-item.style-two .banner-content span, .banner-item.style-one .banner-content span span.off, .page-banner-content .breadcrumb-link li, .hero-content .price-box .currency, .categori-dropdown-item ul li a, .main-categories-wrap .more_categories, .main-categories-wrap .categories-btn-active, .nav-right-item.style-one .pro-count, .nav-right-item.style-one i, .nav-right-item.style-one ul li:not(:last-child):after, .product-search-category form .nice-select, .header-top .top-right ul li, .header-top .top-left span, .header-top .top-left > ul > li, .pesco-pagination ul li a, .sidebar-cart-item a, .sub-heading i, .theme-btn.style-two, h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: var(--primary-dark-color);
+}
+
+.nav-right-item.style-one .deals i, .nav-right-item.style-one .deals, .header-navigation .main-menu ul > li > a {
+  color: var(--white-color);
 }
 
 .sidebar-banner-widget .banner-widget-content .content h3 span, .sidebar-category-widget .widget-nav li a i, .cart-wrapper .product-thumb-item .product-info .product-meta span, .additional-information-wrapper .additional-info-box ul li span, .shop-details-wrapper .product-info .product-price .price.prev-price, .shop-filter .show-text p span, .banner-item.style-one .banner-content h4, .product-search-category form .search-btn, .product-search-category form input::placeholder, .product-search-category form input {
@@ -90,12 +94,12 @@ h6 {
   background-color: var(--primary-color);
 }
 
-.cart-wrapper .product-thumb-item .product-info .product-meta span:not(:last-child):after, .nav-right-item.style-one .pro-count {
+.cart-wrapper .product-thumb-item .product-info .product-meta span:not(:last-child):after, .pro-count {
   background-color: var(--secondary-color);
 }
 
 .sidebar-banner-widget .banner-widget-content .content span.sale, .shop-details-wrapper .product-info .special-features span, .product-item.style-three .product-thumbnail .hover-content a:hover, .product-item.style-three .product-thumbnail .discount, .iconic-box-item.style-two .sn-number, .hero-content.style-one h1 span, .header-navigation.style-one, .header-top {
-  background-color: var(--secondary-light-color);
+  background-color: var(--primary-color);
 }
 
 .testimonial-slider-two .slick-arrow:after, .today-deals-arrows.style-one .slick-arrow:after,
@@ -822,7 +826,7 @@ button {
   position: relative;
   line-height: 2.5;
   margin: 0;
-  color: var(--primary-dark-color);
+  color: var(--white-color);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -850,10 +854,10 @@ button {
   top: 0%;
 }
 .header-navigation .main-menu ul > li .sub-menu li:hover > a {
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 .header-navigation .main-menu ul > li:hover > a {
-  color: var(--primary-color);
+  color: var(--light-gray);
 }
 .header-navigation .main-menu ul > li:hover > .sub-menu {
   opacity: 1;
@@ -1058,6 +1062,10 @@ button {
 .nav-right-item.style-one .cart-button {
   cursor: pointer;
 }
+
+.nav-right-item.style-one .cart-button .icon i {
+    color: var(--white-color);
+  }
 .nav-right-item.style-one .cart-button .icon {
   position: relative;
 }
@@ -1068,10 +1076,25 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--white-color);
+    background-color: transparent;
     border-radius: 5px;
     margin-right: 15px;
   }
+  .nav-right-item.style-one .cart-button .icon {
+    color: var(--white-color);
+  }
+}
+/* SVG Mercado Livre*/
+.social-img {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
+
+.social-img2 {
+  width: 22px;
+  height: 22px;
+  align-items: center;
 }
 
 /* Nav Search */
@@ -1112,7 +1135,7 @@ button {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  background-color: var(--primary-dark-color);
+  background-color: var(--white-color);
 }
 .navbar-toggler span:not(:first-child) {
   margin-top: 5px;
