@@ -1266,12 +1266,11 @@
     "id": 44,
     "bestSeller": true,
     "name": "Óleo de Rosa Mosqueta",
-    "thumbnail": "assets/images/products/catalogue/oleo_rosa_mosqueta.png",
+    "thumbnail": "assets/images/products/catalogue/rosa_mosqueta_catalogo_oleos.png",
     "images": [
-      "assets/images/products/details/oleo_rosa_mosqueta_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/rosa_mosqueta_01_preview_oleos.png",
+      "assets/images/products/details/rosa_mosqueta_02_preview_oleos.png",
+      "assets/images/products/details/rosa_mosqueta_03_preview_oleos.png"
     ],
     "category": "oleos",
     "price": 40.00,
@@ -1301,12 +1300,11 @@
     "id": 45,
     "bestSeller": true,
     "name": "Óleo de Semente de Uva",
-    "thumbnail": "assets/images/products/catalogue/oleo_semente_de_uva.png",
+    "thumbnail": "assets/images/products/catalogue/semente_de_uva_catalogo_oleos.png",
     "images": [
-      "assets/images/products/details/oleo_semente_de_uva_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/semente_de_uva_01_preview_oleos.png",
+      "assets/images/products/details/semente_de_uva_02_preview_oleos.png",
+      "assets/images/products/details/semente_de_uva_03_preview_oleos.png"
     ],
     "category": "oleos",
     "price": 40.00,
@@ -1335,12 +1333,11 @@
   {
     "id": 46,
     "name": "Óleo de Jojoba",
-    "thumbnail": "assets/images/products/catalogue/oleo_jojoba.png",
+    "thumbnail": "assets/images/products/catalogue/jojoba_catalogo_oleos.png",
     "images": [
-      "assets/images/products/details/oleo_jojoba_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/jojoba_01_preview_oleos.png",
+      "assets/images/products/details/jojoba_02_preview_oleos.png",
+      "assets/images/products/details/jojoba_03_preview_oleos.png"
     ],
     "category": "oleos",
     "price": 40.00,
@@ -1369,12 +1366,11 @@
   {
     "id": 47,
     "name": "Óleo de Amêndoas Doces",
-    "thumbnail": "assets/images/products/catalogue/oleo_amendoas_doces.png",
+    "thumbnail": "assets/images/products/catalogue/amendoas_doces_catalogo_oleos.png",
     "images": [
-      "assets/images/products/details/oleo_amendoas_doces_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/amendoas_doces_01_preview_oleos.png",
+      "assets/images/products/details/amendoas_doces_02_preview_oleos.png",
+      "assets/images/products/details/amendoas_doces_03_preview_oleos.png"
     ],
     "category": "oleos",
     "price": 40.00,
@@ -1402,13 +1398,12 @@
   },
   {
     "id": 49,
-    "name": "Óleo de Abacate",
-    "thumbnail": "assets/images/products/catalogue/oleo_abacate.png",
+    "name": "Óleo de Rosa Mosqueta e Girassol",
+    "thumbnail": "assets/images/products/catalogue/rosa_mosqueta_e_girassol_catalogo_oleos.png",
     "images": [
-      "assets/images/products/details/oleo_abacate_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/rosa_mosqueta_e_girassol_01_preview_oleos.png",
+      "assets/images/products/details/rosa_mosqueta_e_girassol_02_preview_oleos.png",
+      "assets/images/products/details/rosa_mosqueta_e_girassol_03_preview_oleos.png"
     ],
     "category": "oleos",
     "price": 40.00,
@@ -1436,13 +1431,12 @@
   },
   {
     "id": 50,
-    "name": "Óleo de Girassol",
-    "thumbnail": "assets/images/products/catalogue/oleo_girassol.png",
+    "name": "Óleo de Rosa Mosqueta e Prímula",
+    "thumbnail": "assets/images/products/catalogue/rosa_mosqueta_e_primula_catalogo_oleos.png",
     "images": [
-      "assets/images/products/details/oleo_girassol_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/rosa_mosqueta_e_primula_01_preview_oleos.png",
+      "assets/images/products/details/rosa_mosqueta_e_primula_02_preview_oleos.png",
+      "assets/images/products/details/rosa_mosqueta_e_primula_03_preview_oleos.png"
     ],
     "category": "oleos",
     "price": 40.00,
@@ -1470,13 +1464,12 @@
   },
   {
     "id": 51,
-    "name": "Óleo de Prímula + Rosa Mosqueta",
-    "thumbnail": "assets/images/products/catalogue/oleo_primula_e_rosa_mosqueta.png",
+    "name": "Óleo de Prímula",
+    "thumbnail": "assets/images/products/catalogue/primula_catalogo_oleos.png",
     "images": [
-      "assets/images/products/details/oleo_primula_e_rosa_mosqueta_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/primula_01_preview_oleos.png",
+      "assets/images/products/details/primula_02_preview_oleos.png",
+      "assets/images/products/details/primula_03_preview_oleos.png"
     ],
     "category": "oleos",
     "price": 40.00,
@@ -1504,13 +1497,12 @@
   },
   {
     "id": 52,
-    "name": "Óleo Semente De Abobora",
-    "thumbnail": "assets/images/products/catalogue/oleo_semente_de_abobora.png",
+    "name": "Óleo de Semente De Abóbora",
+    "thumbnail": "assets/images/products/catalogue/semente_de_abobora_catalogo_oleos.png",
     "images": [
-      "assets/images/products/details/oleo_semente_de_abobora_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/semente_de_abobora_01_preview_oleos.png",
+      "assets/images/products/details/semente_de_abobora_02_preview_oleos.png",
+      "assets/images/products/details/semente_de_abobora_03_preview_oleos.png"
     ],
     "category": "oleos",
     "price": 40.00,
