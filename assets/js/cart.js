@@ -54,30 +54,41 @@ function loadCart() {
     cart = cartData ? JSON.parse(cartData) : [];
 }
 
+// --- ALTERAÇÃO PRINCIPAL AQUI ---
+// Agora verificamos o ID E o NOME para saber se é o mesmo produto (considerando variações)
 function addToCart(product, allProducts, quantity = 1) {
-    const productInCart = cart.find(item => item.product.id === product.id);
-    if (productInCart) productInCart.quantity += quantity;
-    else cart.push({ product: product, quantity: quantity });
+    const productInCart = cart.find(item => item.product.id === product.id && item.product.name === product.name);
+    
+    if (productInCart) {
+        productInCart.quantity += quantity;
+    } else {
+        // Importante: Clonamos o objeto produto para garantir que a variação de nome fique salva corretamente
+        cart.push({ product: JSON.parse(JSON.stringify(product)), quantity: quantity });
+    }
     saveCart();
     renderCart(allProducts);
 }
 
-function increaseQuantity(productId, allProducts) {
-    const item = cart.find(item => item.product.id === productId);
-    if (item) item.quantity++;
-    saveCart();
-    renderCart(allProducts);
+// Usamos o INDEX (posição no array) para alterar, pois é mais seguro que o ID quando há variações
+function increaseQuantity(index, allProducts) {
+    if (cart[index]) {
+        cart[index].quantity++;
+        saveCart();
+        renderCart(allProducts);
+    }
 }
 
-function decreaseQuantity(productId, allProducts) {
-    const item = cart.find(item => item.product.id === productId);
-    if (item && item.quantity > 1) item.quantity--;
-    saveCart();
-    renderCart(allProducts);
+function decreaseQuantity(index, allProducts) {
+    if (cart[index] && cart[index].quantity > 1) {
+        cart[index].quantity--;
+        saveCart();
+        renderCart(allProducts);
+    }
 }
 
-function removeFromCart(productId, allProducts) {
-    cart = cart.filter(item => item.product.id !== productId);
+function removeFromCart(index, allProducts) {
+    // Remove o item baseado na posição dele no carrinho
+    cart.splice(index, 1);
     saveCart();
     renderCart(allProducts);
 }
@@ -140,6 +151,7 @@ function generateWhatsAppMessage() {
         const product = item.product;
         const price = product.discount ? product.price * (1 - (product.discountPercent / 100)) : product.price;
         const itemPrice = price * item.quantity;
+        // O nome aqui já conterá a variação (ex: "Sabonete - 100ml")
         message += `${item.quantity}x ${product.name} - R$${formatter.format(itemPrice)}\n`;
     });
 
@@ -177,20 +189,22 @@ function renderCart(allProducts) {
         const msg = document.getElementById('coupon-message');
         if(msg) msg.textContent = '';
     } else {
-        cart.forEach(item => {
+        // Loop com INDEX para identificar univocamente cada linha
+        cart.forEach((item, index) => {
             const product = item.product;
             const price = product.discount ? product.price * (1 - (product.discountPercent / 100)) : product.price;
             const itemPrice = price * item.quantity;
             totalItems += item.quantity;
             
+            // Usamos data-index ao invés de data-product-id nos botões
             cartHtml += `
                 <li class="sidebar-cart-item">
-                    <a href="#" class="remove-cart" data-product-id="${product.id}"><i class="far fa-trash-alt"></i></a>
+                    <a href="#" class="remove-cart" data-index="${index}"><i class="far fa-trash-alt"></i></a>
                     <a href="shop-details.html?id=${product.id}">
                         <img src="${product.thumbnail}" alt="${product.name}">
-                        ${product.name}
+                        ${product.name} 
                     </a>
-                    <div class="quantity-control" data-product-id="${product.id}">
+                    <div class="quantity-control" data-index="${index}">
                         <button class="quantity-btn quantity-down"><i class="fas fa-minus"></i></button>
                         <span class="quantity-display">${item.quantity}</span>
                         <button class="quantity-btn quantity-up"><i class="fas fa-plus"></i></button>
@@ -216,9 +230,19 @@ function renderCart(allProducts) {
 
     if (cartCountDisplay) cartCountDisplay.textContent = totalItems.toString().padStart(2, '0');
     
-    document.querySelectorAll('.remove-cart').forEach(btn => btn.addEventListener('click', e => { e.preventDefault(); removeFromCart(parseInt(e.currentTarget.dataset.productId), allProducts); }));
-    document.querySelectorAll('.quantity-control .quantity-down').forEach(btn => btn.addEventListener('click', e => decreaseQuantity(parseInt(e.currentTarget.parentNode.dataset.productId), allProducts)));
-    document.querySelectorAll('.quantity-control .quantity-up').forEach(btn => btn.addEventListener('click', e => increaseQuantity(parseInt(e.currentTarget.parentNode.dataset.productId), allProducts)));
+    // Atualiza os listeners para usar o índice
+    document.querySelectorAll('.remove-cart').forEach(btn => btn.addEventListener('click', e => { 
+        e.preventDefault(); 
+        removeFromCart(parseInt(e.currentTarget.dataset.index), allProducts); 
+    }));
+    
+    document.querySelectorAll('.quantity-control .quantity-down').forEach(btn => btn.addEventListener('click', e => {
+        decreaseQuantity(parseInt(e.currentTarget.parentNode.dataset.index), allProducts);
+    }));
+    
+    document.querySelectorAll('.quantity-control .quantity-up').forEach(btn => btn.addEventListener('click', e => {
+        increaseQuantity(parseInt(e.currentTarget.parentNode.dataset.index), allProducts);
+    }));
 }
 
 function initCartSidebar(allProducts) {

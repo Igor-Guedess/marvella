@@ -5624,3 +5624,44 @@ button {
   cursor: not-allowed; /* Mostra um ícone de "não permitido" ao passar o rato */
   opacity: 0.65;
 }
+
+/* Estilo para os botões de variação */
+.product-types-box {
+    margin-top: 20px;
+}
+.product-types-box .label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--primary-dark-color); /* Usa a cor de texto padrão do tema */
+}
+.type-buttons-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.type-btn {
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    color: var(--text-color);
+    font-family: var(--body-font); /* Garante a mesma fonte do site */
+    font-weight: 500;
+}
+
+/* Hover no botão inativo */
+.type-btn:hover {
+    border-color: var(--primary-dark-color);
+    color: var(--primary-dark-color);
+}
+
+/* Botão Ativo (Selecionado) */
+.type-btn.active {
+    background-color: var(--primary-dark-color); /* A MESMA COR do botão Adicionar ao Carrinho */
+    color: #fff;
+    border-color: var(--primary-dark-color);
+}

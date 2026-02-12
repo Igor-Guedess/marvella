@@ -2415,15 +2415,19 @@
   {
     "id": 79,
     "bestSeller": true,
-    "name": "Lavanda com Baunilha",
-    "thumbnail": "assets/images/products/catalogue/vela_lavanda_com_baunilha.png",
+    "name": "Café Torrado",
+    "thumbnail": "assets/images/products/catalogue/cafe_torrado_catalogo_velas.png",
     "images": [
-      "assets/images/products/details/vela_lavanda_com_baunilha_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/cafe_torrado_01_preview_velas.png",
+      "assets/images/products/details/cafe_torrado_02_preview_velas.png",
+      "assets/images/products/details/um_pavio_03_preview_velas.png",
+      "assets/images/products/details/dois_pavios_04_preview_velas.png"
     ],
     "category": "vela",
+    "types": [
+        { "name": "1 Pavio", "price": 40.00 },
+        { "name": "2 Pavios", "price": 50.00 }
+    ],
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
@@ -2449,15 +2453,19 @@
   },
   {
     "id": 80,
-    "name": "Café Torrado",
-    "thumbnail": "assets/images/products/catalogue/vela_cafe_torrado.png",
+    "name": "Lavanda",
+    "thumbnail": "assets/images/products/catalogue/lavanda_catalogo_velas.png",
     "images": [
-      "assets/images/products/details/vela_cafe_torrado_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/lavanda_01_preview_velas.png",
+      "assets/images/products/details/lavanda_02_preview_velas.png",
+      "assets/images/products/details/um_pavio_03_preview_velas.png",
+      "assets/images/products/details/dois_pavios_04_preview_velas.png"
     ],
     "category": "vela",
+    "types": [
+        { "name": "1 Pavio", "price": 40.00 },
+        { "name": "2 Pavios", "price": 50.00 }
+    ],
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
@@ -2484,14 +2492,132 @@
   {
     "id": 81,
     "name": "Floral",
-    "thumbnail": "assets/images/products/catalogue/vela_floral.png",
+    "thumbnail": "assets/images/products/catalogue/floral_catalogo_velas.png",
     "images": [
-      "assets/images/products/details/vela_floral_01.png",
-      "assets/images/products/teste2.png",
-      "assets/images/products/teste.png",
-      "assets/images/products/teste2.png"
+      "assets/images/products/details/floral_01_preview_velas.png",
+      "assets/images/products/details/floral_02_preview_velas.png",
+      "assets/images/products/details/um_pavio_03_preview_velas.png",
+      "assets/images/products/details/dois_pavios_04_preview_velas.png"
     ],
     "category": "vela",
+    "types": [
+        { "name": "1 Pavio", "price": 40.00 },
+        { "name": "2 Pavios", "price": 50.00 }
+    ],
+    "price": 40.00,
+    "discount": false,
+    "discountPercent": null,
+    "inStock": true,
+    "shortDescription": "Cuidado antioxidante e equilibrante. A Aveia hidrata e o Chá Verde combate os radicais livres, ideal para a saúde geral da pele do seu pet.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete promove o equilíbrio da pele, limpando suavemente enquanto protege contra o envelhecimento precoce e mantém a hidratação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação antioxidante e protetora</li>",
+      "  <li>Hidrata e equilibra a pele</li>",
+      "  <li>Mantém a pele do pet saudável</li>",
+      "</ul>"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Camomila",
+    "thumbnail": "assets/images/products/catalogue/camomila_catalogo_velas.png",
+    "images": [
+      "assets/images/products/details/camomila_01_preview_velas.png",
+      "assets/images/products/details/camomila_02_preview_velas.png",
+      "assets/images/products/details/um_pavio_03_preview_velas.png",
+      "assets/images/products/details/dois_pavios_04_preview_velas.png"
+    ],
+    "category": "vela",
+    "types": [
+        { "name": "1 Pavio", "price": 40.00 },
+        { "name": "2 Pavios", "price": 50.00 }
+    ],
+    "price": 40.00,
+    "discount": false,
+    "discountPercent": null,
+    "inStock": true,
+    "shortDescription": "Cuidado antioxidante e equilibrante. A Aveia hidrata e o Chá Verde combate os radicais livres, ideal para a saúde geral da pele do seu pet.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete promove o equilíbrio da pele, limpando suavemente enquanto protege contra o envelhecimento precoce e mantém a hidratação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação antioxidante e protetora</li>",
+      "  <li>Hidrata e equilibra a pele</li>",
+      "  <li>Mantém a pele do pet saudável</li>",
+      "</ul>"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Canela",
+    "thumbnail": "assets/images/products/catalogue/canela_catalogo_velas.png",
+    "images": [
+      "assets/images/products/details/canela_01_preview_velas.png",
+      "assets/images/products/details/canela_02_preview_velas.png",
+      "assets/images/products/details/um_pavio_03_preview_velas.png",
+      "assets/images/products/details/dois_pavios_04_preview_velas.png"
+    ],
+    "category": "vela",
+    "types": [
+        { "name": "1 Pavio", "price": 40.00 },
+        { "name": "2 Pavios", "price": 50.00 }
+    ],
+    "price": 40.00,
+    "discount": false,
+    "discountPercent": null,
+    "inStock": true,
+    "shortDescription": "Cuidado antioxidante e equilibrante. A Aveia hidrata e o Chá Verde combate os radicais livres, ideal para a saúde geral da pele do seu pet.",
+    "additionalInfo": {
+      "Quantidade": "100g",
+      "Composição": "Base Glicerinada, Extratos Naturais",
+      "Modo de Uso": "Aplicar na pele limpa",
+      "Validade": "12 meses",
+      "Origem": "Brasil"
+    },
+    "informations": [
+      "<h4>Descrição</h4>",
+      "<p>Este sabonete promove o equilíbrio da pele, limpando suavemente enquanto protege contra o envelhecimento precoce e mantém a hidratação.</p>",
+      "<h4>Benefícios</h4>",
+      "<ul class='list'>",
+      "  <li>Ação antioxidante e protetora</li>",
+      "  <li>Hidrata e equilibra a pele</li>",
+      "  <li>Mantém a pele do pet saudável</li>",
+      "</ul>"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Lavanda Francesa",
+    "thumbnail": "assets/images/products/catalogue/lavanda_francesa_catalogo_velas.png",
+    "images": [
+      "assets/images/products/details/lavanda_francesa_01_preview_velas.png",
+      "assets/images/products/details/lavanda_francesa_02_preview_velas.png",
+      "assets/images/products/details/um_pavio_03_preview_velas.png",
+      "assets/images/products/details/dois_pavios_04_preview_velas.png"
+    ],
+    "category": "vela",
+    "types": [
+        { "name": "1 Pavio", "price": 40.00 },
+        { "name": "2 Pavios", "price": 50.00 }
+    ],
     "price": 40.00,
     "discount": false,
     "discountPercent": null,
